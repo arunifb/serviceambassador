@@ -4,12 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2594871794871795" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/drawable/add_circle_black_24dp.xml" value="0.19444444444444445" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/drawable/add_more_bg.xml" value="0.2203125" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/drawable/essential_add_bg.xml" value="0.2203125" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/drawable/ic_checkcircle.xml" value="0.2203125" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/drawable/spinner_back.xml" value="0.2203125" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/drawable/spinner_shape.xml" value="0.2203125" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_details.xml" value="0.1" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_essentiallist.xml" value="0.1" />
-        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_essentialsdetails.xml" value="0.1" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_essentialsdetails.xml" value="0.22" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/content_details.xml" value="0.13768115942028986" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/essential_add_more_items.xml" value="0.25" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/essential_items.xml" value="0.182518115942029" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/item_exchange_list.xml" value="0.182518115942029" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/search_spinner.xml" value="0.13858695652173914" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/spinner_dropdown_item.xml" value="0.10869565217391304" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/spinner_item.xml" value="0.13858695652173914" />
         <entry key="..\:/New folder/IFPTecnician/app/src/main/res/layout/activity_essentiallist.xml" value="0.1" />
         <entry key="..\:/New folder/IFPTecnician/app/src/main/res/layout/activity_stock.xml" value="0.1" />
         <entry key="..\:/New folder/IFPTecnician/app/src/main/res/layout/content_stock.xml" value="0.1" />

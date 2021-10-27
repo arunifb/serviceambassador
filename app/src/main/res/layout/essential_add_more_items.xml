@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="@drawable/spinner_back"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+     <TextView
+         android:id="@+id/essential_item"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="TextView" />
+
+     <TextView
+         android:id="@+id/essential_item_cost"
+         android:layout_below="@+id/essential_item"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="₹70" />
+
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="10dp"
+         android:background="@drawable/spinner_back"
+         android:layout_toLeftOf="@+id/img_select"
+         android:orientation="horizontal">
+
+          <TextView
+              android:id="@+id/add_essential"
+              android:layout_weight="1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingTop="4dp"
+              android:paddingBottom="4dp"
+              android:textColor="@color/apptextcolor"
+              android:text="+"/>
+
+
+          <TextView
+              android:layout_weight="1"
+              android:id="@+id/essential_count"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingTop="4dp"
+              android:paddingBottom="4dp"
+              android:background="@drawable/essential_itemcount"
+              android:textColor="@color/apptextcolor"
+              android:text="1"/>
+
+
+          <TextView
+              android:layout_weight="1"
+              android:id="@+id/decrease_essential"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:paddingTop="4dp"
+              android:paddingBottom="4dp"
+              android:textColor="@color/apptextcolor"
+              android:text="-"/>
+
+
+
+
+     </LinearLayout>
+
+
+     <ImageView
+         android:id="@+id/img_select"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentEnd="true"
+         android:layout_centerVertical="true"
+         app:srcCompat="@drawable/ic_un_check" />
+
+
+
+
+
+
+
+</RelativeLayout>

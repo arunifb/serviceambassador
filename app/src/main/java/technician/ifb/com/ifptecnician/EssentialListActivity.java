@@ -132,7 +132,7 @@ public class EssentialListActivity extends AppCompatActivity implements Essentia
                                     essential.setFranchise(jsonObject.optString("franchise"));
                                     essential.setBranch(jsonObject.optString("branch"));
 
-                                 essentialLists.add(essential);
+                                    essentialLists.add(essential);
 
                                 }
 
