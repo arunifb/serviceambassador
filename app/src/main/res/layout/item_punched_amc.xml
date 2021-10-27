@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/task_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+
+              <TextView
+                  android:id="@+id/tv_pun_customer"
+                  android:layout_width="0dp"
+                  android:layout_weight="8"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/black"
+                  android:layout_gravity="start|center"
+                  android:gravity="start|center"/>
+              <TextView
+                  android:id="@+id/tv_pun_starttime"
+                  android:layout_width="0dp"
+                  android:layout_weight="2"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/apptextcolor"
+                  android:layout_gravity="start|center"
+                  android:gravity="start|center"
+                  android:textSize="10sp"/>
+
+              <TextView
+                  android:visibility="gone"
+                  android:id="@+id/tv_pun_endtime"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/apptextcolor"
+                  android:layout_gravity="start|center"
+                  android:gravity="start|center"
+                  android:textSize="10sp"/>
+
+
+          </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_pun_serial"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"/>
+                <TextView
+                    android:id="@+id/tv_pun_phone"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_amc_extended_wty"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/btn_login_twitter"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"/>
+
+
+                <TextView
+                    android:id="@+id/tv_icrno"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/apptextcolor"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:textSize="10sp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_pun_product"
+                    android:layout_width="0dp"
+                    android:layout_weight="8"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"/>
+                <TextView
+                    android:id="@+id/tv_pun_machinestatus"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green1"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:textSize="10sp"/>
+
+                <TextView
+                    android:id="@+id/tv_pun_amcstatus"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/apptextcolor"
+                    android:layout_gravity="start|center"
+                    android:gravity="start|center"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

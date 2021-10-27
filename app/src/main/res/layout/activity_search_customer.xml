@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search.SearchCustomer"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_marginTop="25dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ticket No"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/black_border"
+            android:hint="Enter Ticket No"
+            android:paddingStart="10dp"
+            android:textSize="14dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Type"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_border"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="7dp"
+            android:id="@+id/spnr_status"/>
+
+    </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile No"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/black_border"
+            android:hint="Enter Mobile No"
+            android:paddingStart="10dp"
+            android:textSize="14dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Type"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_border"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="7dp"
+                android:id="@+id/spnr_calltype"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_border"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="7dp"
+                android:id="@+id/spnr_product"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

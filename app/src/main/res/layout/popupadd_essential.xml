@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/apptextcolor"
+        android:text="Essential List"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/apptextcolor"/>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_border"
+            android:orientation="vertical"
+            >
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/ess_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="19dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:gravity="center">
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:clickable="false"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="barcode_icon.json"
+                app:lottie_loop="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/spinner_back"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:divider="@color/white"
+            android:showDividers="middle"
+            android:dividerPadding="1dp">
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:text="Component"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_weight="4"/>
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:text="SQty"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.5"/>
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:text="Qty"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.5"/>
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/usage"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="3"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:orientation="horizontal"
+            android:divider="@color/colorPrimary"
+            android:dividerPadding="1dp"
+            android:showDividers="middle"
+            >
+
+            <TextView
+                android:id="@+id/tv_ess_component"
+                android:fontFamily="@font/roboto_regular"
+
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="4"/>
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:id="@+id/tv_ess_sqty"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.5"/>
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:text="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1.5"
+                android:id="@+id/tv_ess_quentity"/>
+
+            <LinearLayout
+                android:id="@+id/ll_add_ess"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <Spinner
+                    android:id="@+id/spnr_ess_value"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="35dp"
+                    android:padding="5dp"
+                    android:spinnerMode="dropdown"
+                    android:entries="@array/uselist"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_ess_cal"
+        android:orientation="vertical"
+        android:background="@drawable/spinner_back"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:orientation="horizontal"
+            android:background="@color/apptextcolor"
+            android:dividerPadding="1dp"
+            android:showDividers="middle"
+            android:divider="@color/white"
+
+            >
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:text="Consume"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:text="Shelf Life"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:orientation="horizontal"
+            android:dividerPadding="1dp"
+            android:showDividers="middle"
+            android:divider="@color/apptextcolor"
+            >
+
+            <TextView
+                android:id="@+id/ess_tv_shelflife"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="3"/>
+
+
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="3"
+                android:id="@+id/tv_ess_calculation"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="add"
+            android:background="@color/apptextcolor"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/white"
+            android:dividerHeight="2dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

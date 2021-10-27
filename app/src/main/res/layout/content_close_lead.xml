@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CloseLeadActivity"
+    tools:showIn="@layout/activity_close_lead">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:textIsSelectable="true"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/lead_close_tv_calltype"
+                        android:textColor="@color/apptextcolor"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="21sp"
+                        android:background="@drawable/image_shape"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center">
+
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:layout_width="0dp"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:fontFamily="@font/roboto_regular"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:id="@+id/lead_close_tv_custname"/>
+
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:textColor="@color/apptextcolor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:id="@+id/lead_close_tv_callbookdate"
+                            android:fontFamily="@font/roboto_regular"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:id="@+id/lead_close_tv_ticketno"
+                            android:fontFamily="@font/roboto_regular"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:textColor="@color/black"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lead_close_tv_rcnno"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_regular"/>
+
+                        <ImageView
+                            android:id="@+id/lead_close_iv_call"
+                            android:layout_weight="1"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/phone_black_24dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:textColor="@color/black"
+                            android:layout_width="match_parent"
+                            android:layout_weight="3"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lead_close_ess_name"
+                            android:layout_gravity="center"
+                            android:gravity="left|center"
+                            android:fontFamily="@font/roboto_regular"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ll_customer_essential">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ll_esential">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Select Essential Name"/>
+
+                        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                            android:id="@+id/ess_spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:padding="5dp"
+                            android:background="@drawable/spinner_shape"
+                            />
+
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="10dp">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_weight="4"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:textColor="@color/black"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Essential Component"/>
+
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Essential Component"
+                                    />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2.5"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:gravity="center"
+                                    android:textColor="@color/black"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Quantity"/>
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="1"
+                                    android:background="@drawable/edittext_shape"
+                                    />
+                            </LinearLayout>
+
+                            <!--<LinearLayout-->
+                            <!--android:id="@+id/ll_add_ess"-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_weight="1.3"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:gravity="center">-->
+
+                            <!--<Button-->
+                            <!--android:clickable="false"-->
+                            <!--android:layout_width="25dp"-->
+                            <!--android:layout_height="25dp"-->
+                            <!--android:background="@drawable/add_circle_black_24dp"-->
+                            <!--/>-->
+
+                            <!--</LinearLayout>-->
+
+                            <!--<LinearLayout-->
+                            <!--android:id="@+id/ll_scan_ess"-->
+                            <!--android:layout_width="0dp"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_weight="1.7"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:gravity="center">-->
+
+
+                            <!--<com.airbnb.lottie.LottieAnimationView-->
+                            <!--android:clickable="false"-->
+                            <!--android:layout_width="25dp"-->
+                            <!--android:layout_height="25dp"-->
+                            <!--app:lottie_fileName="barcode_icon.json"-->
+                            <!--app:lottie_loop="true"-->
+                            <!--app:lottie_autoPlay="true"/>-->
+                            <!--</LinearLayout>-->
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginBottom="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="30sp"
+                            android:orientation="horizontal"
+                            android:background="@drawable/spinner_back"
+                            android:divider="@color/apptextcolor"
+                            android:showDividers="middle"
+                            android:dividerPadding="1dp">
+
+                            <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="Component"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="4"/>
+                            <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="SQty"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1.5"/>
+                            <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="Qty"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1.5"/>
+                            <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="Add"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1.5"/>
+                            <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="Scan"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1.5"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginBottom="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="30sp"
+                            android:orientation="horizontal"
+                            >
+
+                            <TextView
+                                android:id="@+id/tv_ess_component"
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="Component"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="4"/>
+                            <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:id="@+id/tv_ess_sqty"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1.5"/>
+                            <TextView
+                                android:fontFamily="@font/roboto_regular"
+                                android:text="1"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_weight="1.5"
+                                android:id="@+id/tv_ess_quentity"/>
+                            <LinearLayout
+                                android:id="@+id/ll_add_ess"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.5"
+                                android:layout_gravity="center"
+                                android:gravity="center">
+
+                                <Button
+                                    android:clickable="false"
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    android:background="@drawable/add_circle_black_24dp"
+                                    />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/ll_scan_ess"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1.5"
+                                android:layout_gravity="center"
+                                android:gravity="center">
+
+
+                                <com.airbnb.lottie.LottieAnimationView
+                                    android:clickable="false"
+                                    android:layout_width="25dp"
+                                    android:layout_height="25dp"
+                                    app:lottie_fileName="barcode_icon.json"
+                                    app:lottie_loop="true"
+                                    app:lottie_autoPlay="true"/>
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
+
+                            android:background="#747579">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="3.3"
+                                android:layout_height="match_parent"
+                                android:text="Name"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textColor="@color/white"/>
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="3.2"
+                                android:layout_height="match_parent"
+                                android:text="Code"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textColor="@color/white"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1.5"
+                                android:layout_height="match_parent"
+                                android:text="Item Type"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textColor="@color/white"/>
+
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent"
+                                android:text="Qty"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textColor="@color/white"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:textColor="@color/white"/>
+
+                        </LinearLayout>
+
+
+                        <ListView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lv_ess_add_item"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.05dp"
+            android:backgroundTint="@color/gray"
+            android:background="@color/gray"></View>
+
+    </LinearLayout>
+
+</LinearLayout>

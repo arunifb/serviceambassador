@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_cutomer"
+        android:enabled="true"
+        android:icon="@drawable/account_blue"
+        android:title="Customer"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_machine"
+        android:enabled="true"
+        android:icon="@drawable/ic_machine_details"
+        android:title="Machine"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_spare"
+        android:enabled="true"
+        android:icon="@drawable/ic_download_black"
+        android:title="Spare"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_essential"
+        android:enabled="true"
+        android:icon="@drawable/ic_essential_black"
+        android:title="Essential"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_status"
+        android:enabled="true"
+        android:icon="@drawable/ic_status_black"
+        android:title="Status"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

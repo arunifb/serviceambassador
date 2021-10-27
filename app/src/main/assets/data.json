@@ -1,0 +1,20 @@
+[
+  {
+    "TechPartnerId": "0019875115",
+    "SpareCode": "UF211ELHEC020",
+    "SpareDes": "HEATER 2000W WITH NTC (UP)",
+    "Amount": 200.0,
+    "Quantity": 10,
+    "Model": "WM",
+    "ischeck": false
+  },
+  {
+    "TechPartnerId": "0019875115",
+    "SpareCode": "UF221ECPBD260",
+    "SpareDes": "POWER BOARD MODEL Z1A (NEW ULTRA)",
+    "Amount": 300.0,
+    "Quantity": 20,
+    "Model": "WM",
+    "Ischeck": false
+  }
+]

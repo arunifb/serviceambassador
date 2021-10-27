@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "100672236536",
+    "project_id": "technician-d8623",
+    "storage_bucket": "technician-d8623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100672236536:android:5790b9f1083bc40c15840d",
+        "android_client_info": {
+          "package_name": "technician.ifb.com.ifptecnician"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100672236536-8fnobc2fi01it0tsdpdvte6kuropfk3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "technician.ifb.com.ifptecnician",
+            "certificate_hash": "92cf364e099fa4f9e51cb6c66d48af64fee689d9"
+          }
+        },
+        {
+          "client_id": "100672236536-7ejqr2dr7jr3ac89vc28p24i6t9m4sg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDINHmfTFipIX2noJrmJms9sgP2i6CRQq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100672236536-7ejqr2dr7jr3ac89vc28p24i6t9m4sg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_black_24dp"
+            android:title="Home" />
+
+
+        <item
+            android:id="@+id/nav_piechart"
+            android:icon="@drawable/ic_pie_chart_black_240dp"
+            android:title="Graph View" />
+
+
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/assignment_black_24dp"
+            android:title="All Tickets" />
+
+
+        <item
+            android:id="@+id/nav_catalog"
+            android:icon="@drawable/assignment_black_24dp"
+            android:title="e-Catalogue" />
+
+
+        <item
+            android:id="@+id/nav_todaysales"
+            android:icon="@drawable/sales_icon"
+            android:title="Today&apos;s Sales" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_offlinedata"
+            android:icon="@drawable/ic_signal_cellular_off_black_24dp"
+            android:title="Offline Works" />
+
+        <item
+            android:id="@+id/nav_apporment"
+            android:icon="@drawable/appointment"
+            android:title="Today&apos;s Appointment" />
+
+
+        <item
+            android:id="@+id/nav_nresponse"
+            android:icon="@drawable/negative_vote"
+            android:title="Negative Response" />
+
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_lead"
+            android:icon="@drawable/negative_vote"
+            android:title="All Lead" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="My Search" />
+
+
+
+
+        <item
+            android:id="@+id/nav_sales"
+            android:icon="@drawable/sales_icon"
+            android:title="My Sales" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_dailyreport"-->
+            <!--android:icon="@drawable/sales_icon"-->
+            <!--android:title="Today Report" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_stock"-->
+            <!--android:icon="@drawable/ic_stock"-->
+            <!--android:title="My Stock" />-->
+
+    </group>
+
+
+    <item android:title="Leads">
+        <menu>
+
+            <item
+
+                android:id="@+id/nav_amc"
+                android:icon="@drawable/ic_handshake"
+                android:title="Lead AMC" />
+
+
+            <item
+                android:visible="false"
+                android:id="@+id/nav_esseneial"
+                android:icon="@drawable/ic_outline_shopping_basket_24"
+                android:title="@string/essential_lead" />
+
+
+
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:visible="false"
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Update Spare" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Update Essential" />
+
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/noteicon"
+                android:title="Feedback" />
+
+<!--            <item-->
+<!--                android:id="@+id/nav_settings"-->
+<!--                android:icon="@drawable/ic_menu_manage"-->
+<!--                android:title="Language" />-->
+
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/nav_legal"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Legal"
+        app:actionLayout="@layout/menu_version"
+        />
+
+
+</menu>

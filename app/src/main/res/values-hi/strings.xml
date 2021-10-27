@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Service\nAmbassador</string>
+    <string name="title_activity_main">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="loading">Loading . . .</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_customer_details">CustomerDetailsActivity</string>
+    <string name="title_activity_task_details">TaskDetails</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="scanner_activity">ZBar Scanner - Full Activity</string>
+    <string name="scanner_fragment_activity">ZBar Scanner - Full Fragment Activity</string>
+    <string name="simple_scanner_activity">ZBar Scanner - Simple Activity</string>
+    <string name="simple_scanner_fragment_activity">ZBar Scanner - Simple Fragment Activity</string>
+    <string name="simple_activity_sample">Simple Activity Sample</string>
+    <string name="simple_fragment_sample">Simple Fragment Sample</string>
+    <string name="activity_sample">Full Activity Sample</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="title_activity_graph_view">GraphView</string>
+    <string name="title_activity_task_list">TaskListActivity</string>
+    <string name="title_activity_sales">SalesActivity</string>
+    <string name="title_activity_sales_details">SalesDetailsActivity</string>
+
+    <string name="allow_location_permission">Allow your location permission</string>
+    <string name="allow_storage_permission">Allow your storage permission</string>
+    <string name="setting_permission">Open Setting to Allow Location Permission</string>
+    <string name="label_setting">Setting</string>
+    <string name="details">Details</string>
+    <string name="overview">Overview</string>
+    <string name="product">Product</string>
+    <string name="title_activity_dailyreport">DailyreportActivity</string>
+
+    <string name="moreyear">  &gt; 5 years </string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_contactlist">ContactlistActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_close_lead">CloseLeadActivity</string>
+    <string name="title_activity_lead">LeadActivity</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+    <string name="simstatus">Please ensure that the SIM with which you wish to register is present in the handset as primary sim . App will send an sms from your number to an indian mobile number. Sms charges as per your operator Shall apply</string>
+    <string name="selectsim">Please select registersd Mobile number SIM</string>
+    <string name="note">Note</string>
+    <string name="smscharge">SMS Charges as per operator will apply</string>
+
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="title_activity_sales_piechart">SalesPiechart</string>
+    <string name="title_activity_sales_single_list">SalesSingleList</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_change_password">Change Password</string>
+
+    <string name="esssale">If you sales any essential then please Click on essential tab or ok Button \nIf u not sale any essential then click on skip Button  </string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="title_activity_check_apk">CheckApk</string>
+    <string name="outofdate">Out of date</string>
+
+    <string name="offline">Working Offline</string>
+    <string name="qty">QTY</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_select_picture">Select Picture</string>
+    <string name="permission_title_rationale">Permission needed</string>
+    <string name="permission_read_storage_rationale">Storage read permission is needed to pick files.</string>
+    <string name="title_activity_bse_home">Home</string>
+    <string name="title_activity_notification_view">NotificationView</string>
+    <string name="google_maps_key">AIzaSyBjWEDKCCjLCHnyEZyVuTI99r6VEZ4F_Eo</string>
+    <string name="title_activity_downloadfiles">Downloadfiles</string>
+    <string name="title_activity_update_address">UpdateAddress</string>
+    <string name="title_activity_exchange_main">Exchange Machine</string>
+    <string name="title_activity_webview">Webview</string>
+    <string name="title_activity_viewifbpoint">View IFB Point</string>
+    <string name="title_activity_negative_response">NegativeResponse</string>
+    <string name="title_activity_negative_response_details">Negative Response Update</string>
+
+    <string-array name="uselist">
+        <item>1/day</item>
+        <item>2/day</item>
+        <item>3/day</item>
+        <item>1/week</item>
+        <item>2/week</item>
+        <item>3/week</item>
+    </string-array>
+    <string name="title_activity_todaysales_details">Today\'s Sales Details</string>
+    <string name="title_activity_customer_sign">CustomerSign</string>
+
+    <string name="nonetwork">No Network</string>
+    <string name="nointernet">Make Sure That You Are Connected To The Internet</string>
+    <string name="usage">Usage</string>
+    '
+    <string name="addessential">Press OK to add essential </string>
+    <string name="skipess"> SKIP to ignore</string>
+    <string name="submitpopup">Do you want to submit</string>
+    <string name="title_activity_today_sale">TodaySale</string>
+    <string name="exchangeticket">Exchange \nMachine</string>
+    <string name="punchedamc">Punched\nAMC</string>
+
+    <string name="title_activity_exchange_list">Exchange Machine</string>
+    <string name="search">Search</string>
+    <string name="title_activity_troublesehooting">Troubleshooting</string>
+
+    <string name="troublesehooting">Trouble \nSehooting</string>
+    <string name="mystock">My Stock</string>
+
+    <string name="title_activity_message">IFB Message</string>
+    <string name="imp_message">Important Message From IFB</string>
+
+
+    <string name="youtubeapi">AIzaSyC0m130x7Vrcp6gg0WlrvaG0Lj6Uh2NRXw</string>
+    <string name="title_activity_stock">StockActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_enter_mobile">Enter Mobile</string>
+    <string name="title_activity_create_customer">Create_customer</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_pdf_view">PdfView</string>
+
+
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="scan_barcode_with_request_code">Scan Barcode with customized request code</string>
+    <string name="any_orientation">1D Any Orientation</string>
+    <string name="scan_from_fragment">Scan from fragment</string>
+    <string name="front_camera">Front Camera</string>
+    <string name="custom_activity">Continuous Scan</string>
+
+
+    <string name="toolbar_activity">Activity with Toolbar</string>
+    <string name="custom_scanner">Custom Scanner Activity</string>
+    <string name="scanner_with_margin">Scanner with Margin</string>
+    <string name="scanner_with_timeout">Finish Scan in 8 Seconds</string>
+    <string name="turn_on_flashlight">Turn on Flashlight</string>
+    <string name="turn_off_flashlight">Turn off Flashlight</string>
+    <string name="title_activity_tabbed_scanning">Tabbed Scanning</string>
+    <string name="tabs">Tabs</string>
+    <string name="about">About</string>
+
+    <string name="searchcustomer">Search Customer</string>
+
+
+    // essential Lead
+
+    <string name="essential_lead">Essential Lead</string>
+
+
+    // punched amc
+
+    <string name="selectcriteria">select criteria</string>
+    <string name="customer_details">Customer Details</string>
+    <string name="machine_details">Machine Details</string>
+    <string name="payment_information">Payment Information</string>
+
+    <string name="name">Name</string>
+    <string name="phone">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="alt_mobile">Alt. Mobile</string>
+
+    <string name="serialno">Serial No</string>
+    <string name="machine_status">Machine Status</string>
+    <string name="productcode">Product Code</string>
+
+
+    <string name="baseamount">Base Amount</string>
+
+    <string name="discountamount">Discount Amount</string>
+    <string name="taxamount">Tax Amount</string>
+    <string name="grossamount">Gross Amount</string>
+
+    <string name="paymentmode">Payment Mode</string>
+    <string name="icrno">ICR No</string>
+    <string name="icr_date">ICR Date</string>
+
+
+    <string name="physicalicr">Physical ICR </string>
+    <string name="digitalicr">Generate Digital ICR</string>
+    <string name="selecticrtype">Select ICR Type</string>
+
+
+    <string name="entericrnumber">Enter ICR Number</string>
+
+
+    //service
+
+    <string name="notification_channel_id">channed_id_test</string>
+    <string name="notification_title">Test</string>
+    <string name="cancel_download">Cancel_d</string>
+    <string name="title_activity_download_apk">DownloadApk</string>
+    <string name="preview_area">Preview Area</string>
+
+    <string name="open">नया कॉल</string>
+    <string name="assigned">सौंपा गया कॉल</string>
+    <string name="pending">लंबित कॉल</string>
+    <string name="softclose">हल नरम बंद कॉल</string>
+    <string name="closed">बंद किया कॉल</string>
+    <string name="negative_response">नकारात्मक प्रतिक्रिया कॉल</string>
+    <string name="cancelled">रद्द कॉल</string>
+    <string name="requestcancellation">अनुरोध रद्द कॉल</string>
+
+    <string name="enter_aadhar">Enetr aadhar card no</string>
+    <string name="enter_blood">Enetr blood group</string>
+    <string name="enter_drive">Enetr driving licence no</string>
+
+    <string name="aadharno">Aadhar Card No <font color='#FF0000'>*</font></string>
+    <string name="blood">Blood Group <font color='#FF0000'>*</font></string>
+    <string name="postalcode">Postal Code <font color='#FF0000'>*</font></string>
+    <string name="plotno">Area/house/flat/plot no <font color='#FF0000'>*</font></string>
+    <string name="state">State <font color='#FF0000'>*</font></string>
+    <string name="city">City <font color='#FF0000'>*</font></string>
+    <string name="house">House No  <font color='#FF0000'>*</font></string>
+
+
+    <string name="buildingname">Building name/Street name  <font color='#FF0000'>*</font></string>
+
+    <string name="msg_token_fmt">msg_token_fmt</string>
+    <string name="default_notification_channel_id">12345</string>
+
+
+
+    <string name="vaccine_name">Select Vaccine Name <font color='#FF0000'>*</font></string>
+    <string name="vaccine_type">Select Vaccination type <font color='#FF0000'>*</font></string>
+    <string name="vaccine_from">Select Vaccine From <font color='#FF0000'>*</font></string>
+    <string name="firstdoes">First Does Date <font color='#FF0000'>*</font></string>
+    <string name="seconddoes">Second Does Date <font color='#FF0000'>*</font></string>
+
+    <string name="firstdoeslocation">First Does Location <font color='#FF0000'>*</font></string>
+    <string name="seconddoeslocation">Second Does Location <font color='#FF0000'>*</font></string>
+
+
+
+</resources>

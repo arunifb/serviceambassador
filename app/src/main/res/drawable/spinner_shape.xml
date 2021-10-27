@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle" android:padding="10dp">
+        <solid android:color="#40c1c1c1"/>
+        <corners
+            android:bottomRightRadius="55dp"
+            android:bottomLeftRadius="55dp"
+            android:topLeftRadius="55dp"
+            android:topRightRadius="55dp"/>
+
+        <stroke android:color="#00000000"
+            android:width="10dp"/>
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/ic_expand_more_black_24dp"
+        android:gravity="right"
+       />
+</layer-list>
+

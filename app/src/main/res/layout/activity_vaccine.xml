@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.AddVaccineDetails"
+    android:orientation="vertical"
+    >
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include layout="@layout/item_progressbar"/>
+    <include layout="@layout/item_no_internet"/>
+    <include layout="@layout/item_error_popup"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+       >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape_white"
+            android:layout_margin="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+               >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vaccine_name"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_border"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:src="@drawable/injection"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:id="@+id/spnr_vac_name"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/firstdoes"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_frst_calender"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/black_border"
+            android:hint="Date"
+            android:paddingStart="10dp"
+            android:textSize="14dp"
+            android:layout_gravity="left|center"
+            android:gravity="left|center"
+            android:drawableLeft="@drawable/ic_calender_pink"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/firstdoeslocation"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/et_first_lacation"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/black_border"
+            android:hint="Enter vaccine center"
+            android:paddingStart="10dp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_outline_add_location_alt_24"
+            android:drawablePadding="8dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vaccine_type"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_medium"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_border"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_outline_home_work_24"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"/>
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/spnr_vac_type"/>
+
+                </LinearLayout>
+
+    </LinearLayout>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"
+            android:text="1st Does Details"
+            android:textColor="@color/apptextcolor" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape_white"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/seconddoes"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_snd_calender"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/black_border"
+            android:hint="@string/seconddoes"
+            android:paddingStart="10dp"
+            android:textSize="14dp"
+            android:layout_gravity="left|center"
+            android:gravity="left|center"
+            android:drawableLeft="@drawable/ic_calender_pink"
+            android:drawablePadding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/seconddoeslocation"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/et_snd_loaction"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/black_border"
+            android:hint="enter location/center  "
+            android:paddingStart="10dp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_outline_add_location_alt_24"
+            android:drawablePadding="8dp"/>
+    </LinearLayout>
+
+    </FrameLayout>
+
+        <TextView
+            android:textColor="@color/apptextcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"
+            android:text="2nd Does Details" />
+
+</RelativeLayout>
+
+</LinearLayout>
+
+<Button
+    android:onClick="addvaccine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:background="@color/apptextcolor"
+    android:textColor="@color/white"/>
+
+
+</LinearLayout>

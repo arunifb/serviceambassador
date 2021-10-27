@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:background="@drawable/black_border">
+
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="emp details"
+        android:textColor="@color/apptextcolor"
+        android:textSize="45dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"/>
+
+
+    <LinearLayout
+        android:layout_below="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Customer New Address :"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/et_cust_new_address"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/black_border"
+                android:gravity="start"
+                android:hint="Enter New Address"
+                android:inputType="text"
+                android:lines="3"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Postal Code :"
+                android:textColor="@color/black" />
+
+
+            <EditText
+
+                android:id="@+id/et_cust_new_postal"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/black_border"
+                android:hint="Enter Postal Code"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:inputType="number"
+                android:maxLength="6"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="State :"
+                android:textColor="@color/black" />
+
+            <EditText
+
+                android:id="@+id/et_cust_new_state"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/black_border"
+                android:hint="Enter State"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:inputType="text"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Area/House/Flat/Plot No :"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/black_border"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spnr_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="7dp" />
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Building Name/Street name :"
+                android:textColor="@color/black" />
+
+            <EditText
+
+                android:id="@+id/et_cust_new_street"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/black_border"
+                android:hint="Enter building name/street name"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:inputType="text"
+                />
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="More Address Details :"
+                android:textColor="@color/black" />
+            <EditText
+
+                android:id="@+id/et_cust_new_more_address_details"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/black_border"
+                android:hint="Enter more address details"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:inputType="text"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Landmark :"
+                android:textColor="@color/black" />
+
+            <EditText
+
+                android:id="@+id/et_cust_new_landmark"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/black_border"
+                android:hint="Enter landmark"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:inputType="text"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="City :"
+                android:textColor="@color/black" />
+
+            <EditText
+
+                android:id="@+id/et_cust_new_city"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/black_border"
+                android:hint="Enter city"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:inputType="text"
+                />
+
+            <Button
+                android:id="@+id/email_sign_in_button"
+                style="?android:borderlessButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_marginTop="40.0dip"
+                android:layout_marginRight="2.0dip"
+                android:background="@drawable/login_round_button"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

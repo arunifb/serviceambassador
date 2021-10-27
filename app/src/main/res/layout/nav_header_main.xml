@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:layout_marginTop="20dp"
+    >
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/ll_edit_details"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:id="@+id/header_imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/account_circle_black_24dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tv_edit_profile"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/apptextcolor"
+            android:textSize="10sp"
+            android:text="Edit Details"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="7"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:id="@+id/tv_username"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+        <TextView
+            android:id="@+id/tv_mobileno"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:id="@+id/tv_email"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+         />
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_gravity="center">
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tv_rating"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            />
+         <ImageView
+             android:id="@+id/iv_star"
+             android:layout_gravity="center"
+             android:foregroundGravity="center"
+             android:layout_width="15dp"
+             android:layout_height="15dp"
+             android:src="@drawable/ic_star_black_24dp"/>
+
+     </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

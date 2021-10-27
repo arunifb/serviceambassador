@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".barcode.BarcodeCamera"
+    android:orientation="vertical"
+    >
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false"
+        tools:background="@android:color/white"
+        tools:context=".ui.BarcodeScanningActivity">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/scannerback"/>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:fitsSystemWindows="true"
+            android:gravity="center"
+            android:layout_margin="16dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvScanningWith"
+                android:textStyle="bold"
+                android:text="scanning_with"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/ivScannerLogo"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:background="@color/white"
+                android:src="@drawable/ifblogo"
+                android:adjustViewBounds="true"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="scanner_library" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivFlashControl"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_margin="16dp"
+            android:background="@drawable/flash_button_background"
+            android:contentDescription="turn_flash_on_off"
+            android:padding="12dp"
+            android:src="@drawable/ic_baseline_flashlight_off_24" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

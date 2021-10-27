@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <com.repsly.library.timelineview.TimelineView
+        android:visibility="gone"
+        android:id="@+id/timeline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:lineColor="@color/colorPrimary"
+        app:lineOrientation="vertical"
+        app:lineSize="2dp"
+        app:markerActive="false"
+        app:markerActiveColor="@color/common_green"
+        app:markerActiveStrokeWidth="8dp"
+        app:markerColor="@color/colorPrimary"
+        app:markerSize="20dp"
+        app:markerStrokeWidth="2dp"
+        app:markerTextColor="@android:color/white"
+        app:markerTextSize="10sp" />
+    
+    
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/item_troubleshoot_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+           />
+
+        <TextView
+            android:id="@+id/item_troubleshoot_tv_line"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/item_troubleshoot_image"
+            android:layout_width="2dp"
+            android:layout_height="120dp"
+            android:background="@color/green1"
+            />
+
+    </RelativeLayout>
+
+
+   <LinearLayout
+            android:id="@+id/item_troubleshoot_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/apptextcolor"
+                    android:text="step 1"
+                    android:id="@+id/item_troubleshoot_step"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/item_troubleshoot_status"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/item_troubleshoot_check"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:gravity="left|center"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/item_troubleshoot_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left|center"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+
+                    android:orientation="horizontal"
+                    android:id="@+id/item_troubleshoot_ll_yes">
+
+                    <TextView
+                        android:id="@+id/item_troubleshoot_btn_yes"
+                        android:textColor="@color/apptextcolor"
+                        android:layout_width="38dp"
+                        android:layout_height="27dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Yes"/>
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"></View>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/item_troubleshoot_ll_no">
+
+
+                    <TextView
+                        android:id="@+id/item_troubleshoot_btn_no"
+                        android:layout_width="40dp"
+                        android:layout_height="27dp"
+                        android:textColor="@color/black"
+                        android:layout_weight="1.5"
+                        android:text="No"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        />
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"></View>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stock.Mystock"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/taskProcessing"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:progressBackgroundTintMode="screen"
+        android:indeterminateOnly="true"
+        style="@style/MyProgressBarTwo"
+        android:theme="@style/MyProgressBarTwo"
+        android:progress="30"
+        android:secondaryProgress="60"/>
+
+
+      <include layout="@layout/item_no_internet"/>
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <EditText
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:padding="2dp"
+            android:id="@+id/et_search"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:background="@drawable/search_edittext_shape"
+            android:hint="Spare Search"/>
+
+    </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          android:orientation="vertical">
+
+<!--          <TextView-->
+<!--              android:id="@+id/tv_returnall"-->
+<!--              android:layout_width="wrap_content"-->
+<!--              android:layout_height="24dp"-->
+<!--              android:layout_gravity="end"-->
+<!--              android:layout_marginRight="15dp"-->
+<!--              android:text="Return All"-->
+<!--              android:textColor="@color/apptextcolor"-->
+
+<!--              />-->
+
+
+          <LinearLayout
+              android:layout_marginTop="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_gravity="end"
+              android:gravity="end">
+
+              <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:src="@drawable/summary_list"/>
+
+                        <TextView
+                            android:onClick="returnStock"
+                            android:layout_width="wrap_content"
+                            android:layout_height="24dp"
+                            android:layout_gravity="end"
+                            android:layout_marginRight="15dp"
+                            android:text="Returned Request"
+                            android:paddingStart="10dp"
+                            android:textColor="@color/apptextcolor"
+
+                            />
+
+
+              <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:src="@drawable/ic_baseline_undo_24"/>
+
+              <TextView
+                  android:id="@+id/tv_returnall"
+                  android:layout_width="wrap_content"
+                  android:layout_height="24dp"
+                  android:layout_gravity="end"
+                  android:layout_marginRight="15dp"
+                  android:text="Return All"
+                  android:paddingStart="10dp"
+                  android:textColor="@color/apptextcolor"
+
+                  />
+
+
+          </LinearLayout>
+
+          <include layout="@layout/item_nodata"/>
+
+          <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/swipe_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_stock"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+          </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+
+          <Button
+              android:visibility="gone"
+
+              android:textColor="@color/apptextcolor"
+              android:background="@drawable/black_border"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="40.0dip"
+              android:layout_marginLeft="2.0dip"
+              android:layout_marginRight="2.0dip"
+              android:text="Return Item"
+              android:textAllCaps="false"
+              style="?android:borderlessButtonStyle" />
+
+
+       <Button
+         android:visibility="gone"
+          android:textColor="@color/white"
+          android:id="@+id/my_stock_edit"
+          android:background="@drawable/login_round_button"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="40.0dip"
+          android:layout_marginLeft="2.0dip"
+          android:layout_marginRight="2.0dip"
+          android:text="Request For Return"
+          android:textAllCaps="false"
+          style="?android:borderlessButtonStyle" />
+
+
+
+      </LinearLayout>
+
+
+  </LinearLayout>
+
+</LinearLayout>

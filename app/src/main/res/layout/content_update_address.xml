@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UpdateAddress"
+    tools:showIn="@layout/activity_update_address"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Street"
+            android:fontFamily="@font/roboto_bold"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:id="@+id/update_et_street"
+           android:inputType="text"
+           android:fontFamily="@font/roboto_regular"
+           android:background="@drawable/edittext_background"
+           android:textSize="12sp"
+           android:textColor="@color/black"
+           android:paddingLeft="20dp"
+           android:layout_marginTop="8dp"
+           />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/update_et_city"
+            android:inputType="text"
+            android:background="@drawable/edittext_background"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/update_et_state"
+            android:inputType="text"
+            android:background="@drawable/edittext_background"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pincode"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/update_et_pincode"
+            android:inputType="number"
+            android:background="@drawable/edittext_background"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full Address"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/update_et_fulladdress"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext_background"
+            android:textSize="12sp"
+            android:maxLines="3"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:minLines="2"
+            android:gravity="top|left"
+            android:scrollbars="vertical"
+            />
+
+    </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Update Address"
+        android:id="@+id/update_btn_address"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+
+
+
+
+</LinearLayout>

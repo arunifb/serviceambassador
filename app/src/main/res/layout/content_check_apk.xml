@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CheckApk"
+    tools:showIn="@layout/activity_check_apk"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Update Service Ambassador App"
+            android:layout_gravity="center"
+            android:textColor="@color/apptextcolor"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_download_from_server"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_outofdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_gravity="left|center"
+            android:gravity="left|center"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="What's new"
+            android:layout_gravity="left|center"
+            android:textColor="@color/apptextcolor"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="left|center"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_gravity="center"
+            android:lineSpacingMultiplier="1.5"
+            android:lineSpacingExtra="3dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            />
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Download"
+        android:background="@color/apptextcolor"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

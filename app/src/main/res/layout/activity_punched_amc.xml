@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".amc.PunchedAmc"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/item_no_internet"/>
+
+    <include layout="@layout/item_error_popup"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/selectcriteria"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/black_border"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+            <Spinner
+                android:id="@+id/spnr_search_criteria"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="7dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_select_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_main_input"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+        <LinearLayout
+
+            android:id="@+id/ll_texttype"
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_cust_search"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/black_border"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+               />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_date_type"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_selectdate"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@drawable/black_border"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:onClick="selectdate"
+                android:layout_gravity="left|center"
+                android:gravity="left|center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_search"
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <Button
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/search"
+                    android:textAllCaps="false"
+                    android:drawableLeft="@drawable/ic_search_white"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/white"
+                    android:background="@color/apptextcolor"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <include layout="@layout/item_nodata"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/lv_punched_amc_list"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

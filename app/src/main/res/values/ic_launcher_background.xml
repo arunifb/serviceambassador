@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+
+
+<!--    Splash Screen-->
+
+<!--    Accept-->
+<!--    Cancel-->
+<!--    Submit-->
+
+<!--    Please check your internet Connection-->
+<!--    Reset Your Password-->
+<!--    This is auto generated password-->
+<!--    No valid account linked-->
+<!--    Your account has been deactivated-->
+<!--    Unable to Login Due to Multiple Account Detected-->
+<!--    So Please contact your administrator-->
+
+
+
+<!--    Login Page-->
+
+<!--    Mobile no-->
+<!--    Password-->
+<!--    Please enter 10 digit mobile no-->
+<!--    Please enter password-->
+<!--    Please Enter Valid Mobileno And Password-->
+<!--    Please try after some times.-->
+<!--    Network error-->
+<!--    Server Error-->
+<!--    Request Time Out-->
+<!--    AuthFailure Error-->
+<!--    Forgot Password-->
+<!--    Login-->
+<!--    Login with otp-->
+
+
+<!--    Login With Otp-->
+<!--    Enter Mobile-->
+<!--    Please enter your mobile umber to received a-->
+<!--    verification code-->
+<!--    verify-->
+
+<!--    Dashboard-->
+
+<!--    All tickets-->
+<!--    assigned-->
+<!--    pending-->
+<!--    Resolved Soft Close-->
+<!--    Closed-->
+<!--    Negative Response-->
+<!--    cancelled-->
+<!--    request Cancellation-->
+<!--    Today Sale-->
+<!--    Pending for ctc-->
+<!--    Inventory Management-->
+<!--    My Stock-->
+
+
+<!--    Edit Details-->
+<!--    Graph view-->
+<!--    e-catalogue-->
+<!--    today sales-->
+<!--    today appointment-->
+<!--    negative response-->
+<!--    my search-->
+<!--    my sales-->
+<!--    update essential-->
+<!--    feedback-->
+<!--    legal-->
+
+<!--    upload-->
+<!--    partner id-->
+<!--    contact details-->
+<!--    mobile-->
+<!--    email id-->
+<!--    aadhar and driving licernce-->
+<!--    aadhar-->
+<!--    driving licernce-->
+<!--    others-->
+<!--    blood group-->
+<!--    change password-->
+<!--    update profile-->
+<!--    date-->
+<!--    aging-->
+<!--    call type-->
+<!--    get direction-->
+<!--    so history-->
+<!--    ticket no-->
+<!--    problem-->
+<!--    customer-->
+<!--    product-->
+<!--    spare-->
+<!--    essential-->
+<!--    notes-->
+<!--    status-->
+<!--    model-->
+<!--    serial no-->
+<!--    job start time-->
+<!--    capture serial no photo-->
+<!--    capture odu serial no photo-->
+<!--    capture invoice photo-->
+<!--    machine status-->
+<!--    part name-->
+<!--    part code-->
+<!--    quantity-->
+<!--    pending-->
+<!--    add-->
+<!--    scan-->
+<!--    item type-->
+<!--    sqty - stock quantity-->
+<!--    enter feedback-->
+<!--    no of member-->
+<!--    residence-->
+<!--    > 5 year-->
+<!--    add details-->
+<!--    customer details-->
+<!--    customer Signature-->
+<!--    submit-->
+
+<!--    inventory management-->
+<!--    my request-->
+<!--    search spare-->
+<!--    select catagory-->
+<!--    Accept-->
+<!--    returned request-->
+<!--    return all-->
+
+
+<!--    validation-->
+
+<!--    Added Spare is Pending-->
+<!--    Please Select Status-->
+<!--    Service Order Update-->
+<!--    Do you want to submit-->
+<!--    PartnerId Not Found , Please login again-->
+<!--    Please Scan Serial no for getting job start Time-->
+<!--    Please scan serial no-->
+<!--    Please Collect Customer Signatutre-->
+<!--    Please Capture Serial No And Odu Serial No Photo-->
+<!--    Please Capture Serial No Photo-->
+<!--    Please Select Mandratary Check List-->
+<!--    Please Select Water Source-->
+<!--    Please Enter TDS Level-->
+
+<!--    notes-->
+<!--    view notes-->
+<!--    no notes data found for ticket no-->
+<!--    no data-->
+
+<!--    Amc-->
+<!--    Amc Lead-->
+<!--    Customer Search-->
+
+
+<!--    Customer details-->
+<!--    id-->
+<!--    name-->
+<!--    address-->
+<!--    email id-->
+<!--    postal code-->
+<!--    state-->
+<!--    area/house/flat/plot no-->
+<!--    city-->
+<!--    house no-->
+<!--    building name/street name-->
+<!--    more address details-->
+<!--    landmark-->
+
+<!--    product details-->
+<!--    Serial no-->
+
+<!--    Amc type-->
+<!--    Type Details-->
+<!--    Discount Amount-->
+<!--    Price Details-->
+<!--    Base Price-->
+<!--    Discount Amount-->
+<!--    Net Amount-->
+<!--    Tax amount-->
+<!--    Gross Amount-->
+<!--    discount amount less than 10% of base price-->
+
+<!--    Payment mode-->
+<!--    cash-->
+<!--    cheque-->
+<!--    online-->
+<!--    icr date-->
+<!--    icr no-->
+<!--    physical icr-->
+<!--    generate digital icr-->
+<!--    verify icr no-->
+<!--    cheque no-->
+<!--    cheque date-->
+<!--    bank-->
+<!--    payment -->
+
+
+</resources>

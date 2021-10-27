@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".amc.Createamc">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_amc_view"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer Type*"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_border"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="7dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service Product*"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_border"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="7dp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description*"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <EditText
+            android:paddingTop="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/black_border"
+            android:hint="write here"
+            android:lines="3"
+            android:layout_gravity="left"
+            android:gravity="start"
+            android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MRP*"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_medium"/>
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/black_border"
+                android:hint="Enter AMC amount"
+                android:paddingStart="10dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ICR Number"
+                android:textColor="@color/black"
+                android:fontFamily="@font/roboto_medium"/>
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/black_border"
+                android:hint="Enter ICR Number"
+                android:paddingStart="10dp"/>
+
+
+            <Button
+                android:textColor="@color/white"
+                android:background="@drawable/login_round_button"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="40.0dip"
+                android:layout_marginRight="20.0dip"
+                android:text="Process"
+                android:textAllCaps="false"
+                style="?android:borderlessButtonStyle" />
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

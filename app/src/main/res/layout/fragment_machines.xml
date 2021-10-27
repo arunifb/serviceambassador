@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".negative_response.fragment.MachinesFragment">
+
+    <LinearLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/nr_ll_machine_details">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textIsSelectable="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Machine Details"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                  
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:text="Product"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nr_mac_tv_product"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_marginRight="10dp"
+                            />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:text="Model"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nr_mac_tv_model"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_marginRight="10dp"
+                            />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:text="Serial No"/>
+
+                        <TextView
+
+                            android:textIsSelectable="true"
+                            android:layout_width="0dp"
+                            android:layout_weight="6"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nr_mac_tv_serial_no"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_marginRight="10dp"/>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+                    <LinearLayout
+
+                        android:id="@+id/nr_mac_ll_serial_no_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="8"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:text="Serialno Image"/>
+
+                        <ImageView
+
+                            android:id="@+id/nr_mac_view_serialno"
+                            android:layout_width="30dp"
+                            android:layout_weight="1"
+                            android:layout_height="30dp"
+                            android:src="@drawable/noimage"/>
+
+                    
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:text="ODU Ser No"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:layout_width="0dp"
+                            android:layout_weight="6"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nr_mac_tv_odu_ser_no"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_marginRight="10dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+                    <LinearLayout
+                        
+                        android:id="@+id/nr_mac_ll_odu_serial_no_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="8"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:text=" ODU Serialno Image"/>
+
+                        <ImageView
+                            android:id="@+id/nr_mac_view_oduserialno"
+                            android:layout_width="30dp"
+                            android:layout_weight="1"
+                            android:layout_height="30dp"
+                            android:src="@drawable/noimage"/>
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:text="Machine Status"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nr_mac_tv_machine_status"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_marginRight="10dp"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:text="DOP"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:layout_width="0dp"
+                            android:layout_weight="6"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nr_mac_tv_dop"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_marginRight="10dp"
+                            />
+
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="#30000000"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:text="DOI"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:layout_width="0dp"
+                            android:layout_weight="6"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nr_mac_tv_doi"
+                            android:layout_gravity="right|center"
+                            android:gravity="right|center"
+                            android:layout_marginRight="10dp"
+                            />
+
+                       
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/nr_mac_ll_invioce_no_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="8"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:text="Invoice Photo"/>
+
+                        <ImageView
+
+                            android:id="@+id/nr_mac_view_invioce"
+                            android:layout_width="30dp"
+                            android:layout_weight="1"
+                            android:layout_height="30dp"
+                            android:src="@drawable/noimage"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+
+    </LinearLayout>
+</FrameLayout>

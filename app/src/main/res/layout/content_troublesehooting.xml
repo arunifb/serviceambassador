@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".troublesehoot.Troublesehooting"
+    tools:showIn="@layout/activity_troublesehooting"
+    android:orientation="vertical">
+
+
+    <ProgressBar
+        android:id="@+id/taskProcessing"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:progressBackgroundTintMode="screen"
+        android:indeterminateOnly="true"
+        style="@style/MyProgressBarTwo"
+        android:theme="@style/MyProgressBarTwo"
+        android:progress="30"
+        android:secondaryProgress="60"/>
+
+    <include layout="@layout/item_no_internet"/>
+
+    <include layout="@layout/item_nodata"/>
+
+    <include  layout="@layout/item_error_popup"/>
+
+    <include layout="@layout/layout_sms_alert"/>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="Select Product"
+        android:layout_gravity="left|center"
+        android:gravity="left|center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_regular"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_border"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/troublesehooting_spnr_product"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="Select Model"
+        android:layout_gravity="left|center"
+        android:gravity="left|center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_regular"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_border"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/troublesehooting_spnr_model"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:text="Select Problem"
+        android:layout_gravity="left|center"
+        android:gravity="left|center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_regular"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_border"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/troublesehooting_spnr_problem"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Steps"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/apptextcolor"
+        android:layout_marginBottom="15dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/lv_problem_step"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

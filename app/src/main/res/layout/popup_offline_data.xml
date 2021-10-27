@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/apptextcolor"
+        android:text="Sms Error"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/popup_tv_error_details"
+        />
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:id="@+id/popup_offline_btn_save_for_offline"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Save for offline"
+        android:textColor="@color/apptextcolor"
+        android:background="@drawable/request_otp"/>
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/popup_offline_btn_save_for_resend"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="resend Sms"
+        android:textColor="@color/white"
+        android:background="@drawable/login_round_button"/>
+
+
+</LinearLayout>
+
+
+</LinearLayout>

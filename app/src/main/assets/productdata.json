@@ -1,0 +1,2187 @@
+[
+  {
+    "product":"Dish Washer",
+    "data": [
+    {
+      "Material": "000008903287001154",
+      "Material description": "DISHWASHER MODEL A4M1",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001161",
+      "Material description": "DISHWASHER MODEL MM118",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001239",
+      "Material description": "DISHWASHER MODEL WQP12-9260AY",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001246",
+      "Material description": "DISHWASHER MODEL WQP12-9260Y",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001253",
+      "Material description": "DISHWASHER MODEL WQP12-B9253",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001260",
+      "Material description": "DISHWASHER MODEL WQP12-B9276Y",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001314",
+      "Material description": "WQP12-9338 (BUILT IN DISHWASHER)",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001321",
+      "Material description": "DISHWASHER NEPTUNE 1",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001338",
+      "Material description": "DISHWASHER ZEPHYR EX1",
+      "Matl Group": "Dish Washer"
+    },
+
+    {
+      "Material": "000008903287001352",
+      "Material description": "DISHWASHER NEPTUNE",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001369",
+      "Material description": "DISHWASHER ZEPHYR EX",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001376",
+      "Material description": "BUILT IN DISHWASHER D41",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001383",
+      "Material description": "DISHWASHER NEPTUNE DX",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001390",
+      "Material description": "DISHWASHER ZEPHYR DX",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001406",
+      "Material description": "BUILT IN DISHWASHER NEPTUNE",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001451",
+      "Material description": "DISHWASHER ZEPHYR SX",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001628",
+      "Material description": "DISHWASHER PAGOS",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001826",
+      "Material description": "NEPTUNE VX",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001833",
+      "Material description": "NEPTUNE SX 1",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001949",
+      "Material description": "DISHWASHER NEPTUNE VX TRANSPERANT",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001956",
+      "Material description": "DISHWASHER NEPTUNE WX",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287001963",
+      "Material description": "DISHWASHER NEPTUNE FX",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287002694",
+      "Material description": "DISHWASHER NEPTUNE VX PLUS",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287100239",
+      "Material description": "SAMPLES-DW",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287100246",
+      "Material description": "SAMPLES-DW",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287100468",
+      "Material description": "OLD 1 BHOPAL DISHWASHER",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287100574",
+      "Material description": "SAMPLE DISHWASHER",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287900001",
+      "Material description": "DISHWASHER CLASSIC",
+      "Matl Group": "Dish Washer"
+    },
+    {
+      "Material": "000008903287900002",
+      "Material description": "DISHWASHER MISTRAL",
+      "Matl Group": "Dish Washer"
+    }
+  ]
+},
+  { "product":"Microwave",
+    "data": [
+      {
+        "Material": "000008903287002145",
+        "Material description": "MWO 20PG3S -  (NEW CODE  8903287005145)",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005008",
+        "Material description": "MICROWAVE OVEN 17PM-MEC1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005077",
+        "Material description": "MICROWAVE OVEN 20SC2",
+        "Matl Group": "Microwave"
+      },
+
+      {
+        "Material": "000008903287005107",
+        "Material description": "MICROWAVE OVEN 30SC2",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005114",
+        "Material description": "MICROWAVE OVEN 30SRC1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005121",
+        "Material description": "MICROWAVE OVEN 17PG2S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005138",
+        "Material description": "MICROWAVE OVEN 20PM1S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005145",
+        "Material description": "MICROWAVE OVEN 20PG3S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005152",
+        "Material description": "MICROWAVE OVEN 25PG2S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005176",
+        "Material description": "MICROWAVE OVEN 23SC1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005183",
+        "Material description": "MICRO WAVE OVEN CONVECTION 25SC3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005190",
+        "Material description": "MICRO WAVE OVEN CONVECTION 30SC3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005206",
+        "Material description": "MICRO WAVE OVEN CONVECTION 20BC3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005213",
+        "Material description": "MICRO WAVE OVEN CONVECTION 23SC3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005220",
+        "Material description": "MICRO WAVE OVEN CONVECTION 30BRC2",
+        "Matl Group": "Microwave"
+      },
+
+      {
+        "Material": "000008903287005251",
+        "Material description": "MICRO WAVE OVEN 38SRC1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005268",
+        "Material description": "MICRO WAVE OVEN 25BC3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005275",
+        "Material description": "MICRO WAVE OVEN 23BC3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005282",
+        "Material description": "MICRO WAVE OVEN 25DGSC1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005299",
+        "Material description": "MICRO WAVE OVEN 25PG2B",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005305",
+        "Material description": "MICRO WAVE OVEN 17PG3S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005312",
+        "Material description": "MICRO WAVE OVEN 23BC4",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005329",
+        "Material description": "MICRO WAVE OVEN 25PG3B",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005336",
+        "Material description": "MICRO WAVE OVEN 25BC4",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005343",
+        "Material description": "MICRO WAVE OVEN 30SRC2",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005350",
+        "Material description": "MICRO WAVE OVEN 25SC4",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005367",
+        "Material description": "MICRO WAVE OVEN 20BC4",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005374",
+        "Material description": "MICRO WAVE OVEN 30SC4",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005381",
+        "Material description": "MICRO WAVE OVEN 20PM2S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005398",
+        "Material description": "MICRO WAVE OVEN 17PM-MEC2B",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005404",
+        "Material description": "MICRO WAVE OVEN 20PG4S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005411",
+        "Material description": "MICRO WAVE OVEN 30FRC2",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005428",
+        "Material description": "MICRO WAVE OVEN 25BCSDD1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005435",
+        "Material description": "MICRO WAVE OVEN 25BCS1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005442",
+        "Material description": "MICRO WAVE OVEN 20PM-MEC 1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005459",
+        "Material description": "MICRO WAVE OVEN 20PG-MEC 1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005466",
+        "Material description": "MICRO WAVE OVEN 20SC3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005473",
+        "Material description": "MICRO WAVE OVEN 34BC1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005480",
+        "Material description": "MICRO WAVE OVEN 20SS2S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005497",
+        "Material description": "MICRO WAVE OVEN 20SSG4S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005503",
+        "Material description": "MICRO WAVE OVEN 34BC1-DON'T USE PRESNTLY",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005510",
+        "Material description": "MICRO WAVE OVEN 30BRC3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005527",
+        "Material description": "MICRO WAVE OVEN 25SC5",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005534",
+        "Material description": "MICRO WAVE OVEN 20BC5",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005541",
+        "Material description": "MICRO WAVE OVEN 23BC5",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005558",
+        "Material description": "MICRO WAVE OVEN 25BC5",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005565",
+        "Material description": "MICRO WAVE OVEN 25DGBC2",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005572",
+        "Material description": "MICRO WAVE OVEN 30BC5",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287005589",
+        "Material description": "25PM2S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100291",
+        "Material description": "SAMPLE MICROWAVE OVEN",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100307",
+        "Material description": "MWO SAMPLE  PT0BI7J.D3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100314",
+        "Material description": "MWO SAMPLE  D70017AJ-D3",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100321",
+        "Material description": "MWO SAMPLE  WO900ESLZ8Q-5SIII",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100338",
+        "Material description": "MWO SAMPLE  P70B17EL-D4",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100345",
+        "Material description": "MWO SAMPLE  22DGSC",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100420",
+        "Material description": "OLD 1 BHOPAL MICROWAVE OVEN",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100437",
+        "Material description": "OLD 2 SHENJEN MODEL MWO",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287100444",
+        "Material description": "OLD 3 GALANZ MODEL MWO",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900004",
+        "Material description": "MICRO WAVE OVEN 2002",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900005",
+        "Material description": "MICRO WAVE OVEN 2003",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900006",
+        "Material description": "MICRO WAVE OVEN 2300",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900007",
+        "Material description": "MICRO WAVE OVEN 2301",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900008",
+        "Material description": "MICRO WAVE OVEN 2303",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900009",
+        "Material description": "MICRO WAVE OVEN 2304",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900010",
+        "Material description": "MICRO WAVE OVEN 2901",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900011",
+        "Material description": "MICRO WAVE OVEN 17PM1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900012",
+        "Material description": "MICRO WAVE OVEN 20PG1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900013",
+        "Material description": "MICRO WAVE OVEN 20PG1S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900014",
+        "Material description": "MICRO WAVE OVEN 2304C",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900015",
+        "Material description": "MICRO WAVE OVEN 23SC1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900016",
+        "Material description": "MICRO WAVE OVEN 23SC1S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900017",
+        "Material description": "MICRO WAVE OVEN 23SG1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900018",
+        "Material description": "MICRO WAVE OVEN 23SG1S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900020",
+        "Material description": "MICRO WAVE OVEN 30SC1S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900021",
+        "Material description": "MICRO WAVE OVEN ELECTRON",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900022",
+        "Material description": "MICRO WAVE OVEN MEGATRON",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900023",
+        "Material description": "MICRO WAVE OVEN NEUTRON",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900024",
+        "Material description": "MICRO WAVE OVEN NEUTRON GRILL",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900025",
+        "Material description": "MICRO WAVE OVEN PROTON",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900026",
+        "Material description": "MICRO WAVE OVEN 23PG1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900027",
+        "Material description": "MICRO WAVE OVEN 23SL1R",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900028",
+        "Material description": "MICRO WAVE OVEN 25SC1",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900029",
+        "Material description": "MICRO WAVE OVEN POSITRON",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900030",
+        "Material description": "MICRO WAVE OVEN PROTON GRILL",
+        "Matl Group": "Microwave"
+      },
+
+      {
+        "Material": "000008903287900032",
+        "Material description": "MICRO WAVE OVEN 17G1S",
+        "Matl Group": "Microwave"
+      },
+      {
+        "Material": "000008903287900033",
+        "Material description": "MICRO WAVE OVEN 25PG1",
+        "Matl Group": "Microwave"
+      }
+    ]
+  },
+  {
+    "product":"Front Loader",
+    "data": [
+
+      {
+        "Material": "000008903287000034",
+        "Material description": "SENATOR 6KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000041",
+        "Material description": "SENATOR DX 6KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000072",
+        "Material description": "DIGITAL SX",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000089",
+        "Material description": "DIGITAL 5.5KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000096",
+        "Material description": "ELENA DX 5.5KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000102",
+        "Material description": "SERENA 5.5 KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000119",
+        "Material description": "SENORITA DX 5.5KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000126",
+        "Material description": "ELITE 5KG",
+        "Matl Group": "Front Loader "
+      },
+
+      {
+        "Material": "000008903287000157",
+        "Material description": "ELITE DX 5.5KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000188",
+        "Material description": "SUPRA (SW5CI8)",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000195",
+        "Material description": "SUPRA (SW6CI11)",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000225",
+        "Material description": "EVA DX",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000249",
+        "Material description": "ELENA EX",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000256",
+        "Material description": "ELITE DX AQUA",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000263",
+        "Material description": "ELENA SX 6 KG.",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000270",
+        "Material description": "ELITE SX 5.5 KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000287",
+        "Material description": "SENATOR SX 6 KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000294",
+        "Material description": "SERENA SX 5.5 KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000348",
+        "Material description": "FRONT LOADING WM WA83120",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000355",
+        "Material description": "FRONT LOADING WM WA72125",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000447",
+        "Material description": "DUMMY SENATOR 6KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000454",
+        "Material description": "DUMMY SENORITA DX 5.5KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000508",
+        "Material description": "DUMMY SENETOR DX 6KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000645",
+        "Material description": "MILE - W 6746 WPS",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012082",
+        "Material description": "DUMMY  DIGITAL SX",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012099",
+        "Material description": "DUMMY  DIGITAL 5.5KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012105",
+        "Material description": "DUMMY  ELITE SX",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012112",
+        "Material description": "DUMMY  ELITE DX 5.5KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012129",
+        "Material description": "DUMMY  SERENA SX",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012136",
+        "Material description": "DUMMY  SERENA 5.5 KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012143",
+        "Material description": "DUMMY  ELENA DX 5.5KG",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012150",
+        "Material description": "DUMMY  EVA DX",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287012167",
+        "Material description": "DUMMY  DIVA (COLD WASH)",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100000",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100017",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100024",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100031",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100048",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100055",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100062",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100079",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100086",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100093",
+        "Material description": "SAMPLES-WM",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100109",
+        "Material description": "SAMPLES-WM",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100116",
+        "Material description": "SAMPLES-WM",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100123",
+        "Material description": "SAMPLES-WM",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100130",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100147",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100154",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100161",
+        "Material description": "SAMPLE W/M",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287100451",
+        "Material description": "OLD 1 VERNA",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008999999999999",
+        "Material description": "DUMMY WASHING MACHINE MODELS",
+        "Matl Group": "Front Loader "
+      },
+      {
+        "Material": "000008903287000324",
+        "Material description": "ANGULAR FL WM 6.5 KG WHITE COLOUR",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008903287000430",
+        "Material description": "DIGITAL 7KG",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008903287012006",
+        "Material description": "ANGULAR FL WM 6.5KG WITH LCD DISPLAY",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008903287012174",
+        "Material description": "FL WM BORA A1 5 KG",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008903287012181",
+        "Material description": "FL WM BORA B2 5 KG",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008903287012198",
+        "Material description": "FL WM YUMA B2 5 KG",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008903287012204",
+        "Material description": "FL WM LARES B2 5 KG",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008903287100598",
+        "Material description": "SAMPLE FRONT LOADING WASHING MACHINE",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008909283000317",
+        "Material description": "ANGULAR FL WM 6.5 KG SILVER COLOUR",
+        "Matl Group": "Front Loader  Traded"
+      },
+      {
+        "Material": "000008909283000324",
+        "Material description": "ANGULAR FL WM 6.5 KG WHITE COLOUR",
+        "Matl Group": "Front Loader  Traded"
+      }
+    ]
+  },
+  {"product":"Cloth Dryer",
+  "data": [
+    {
+      "Material": "000008903287000522",
+      "Material description": "MAXI DRYER 550",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000523",
+      "Material description": "MAXI DRYER 550 - REVISED",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000539",
+      "Material description": "MAXIDRY EX",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000546",
+      "Material description": "DRYER STRAATEN",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000553",
+      "Material description": "DRYER SUPRA",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000577",
+      "Material description": "DUMMY CD MAXI DRY 550",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000607",
+      "Material description": "CLOTH DRYER WDR 55",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000638",
+      "Material description": "DUMMY CD MAXIDRY EX 550",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000652",
+      "Material description": "MAXI DRY 550-SN",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000669",
+      "Material description": "TURBO DRY EX",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000676",
+      "Material description": "TURBO DRY",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287000683",
+      "Material description": "TURBO DRY – SN",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287100185",
+      "Material description": "DRYER",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287100192",
+      "Material description": "DRY CLEANING MACHINE GXZQ 6",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287100208",
+      "Material description": "DRYER",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287100215",
+      "Material description": "DRYER",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287100222",
+      "Material description": "DRYER",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008903287100390",
+      "Material description": "WASHER DRYER",
+      "Matl Group": "Cloth Dryer"
+    },
+    {
+      "Material": "000008999999999998",
+      "Material description": "DUMMY CLOTH DRYER",
+      "Matl Group": "Cloth Dryer"
+    }
+  ]
+},
+  {
+  "product":"Air Conditioner",
+  "data": [
+    {
+      "Material": "000008903287017001",
+      "Material description": "AIR CONDITIONER 1.5 TON 5 STAR PFC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017018",
+      "Material description": "AIR CONDITIONER 1.5 TON 5 COPPER",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017025",
+      "Material description": "AIR CONDITIONER 1.5 DC INVERTER",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017032",
+      "Material description": "AIR CONDITIONER  1.0 T  IACS12AK3TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017049",
+      "Material description": "AIR CONDITIONER 1.0 T  IACS12BF5TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017056",
+      "Material description": "AIR ONDITIONER 1.5 T  IACS18AK3TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017063",
+      "Material description": "AIR CONDITIONER 1.5 T  IACS18BF5TP",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017070",
+      "Material description": "AIR CONDITIONER 1.5 T  IACS18CK3TCG",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017087",
+      "Material description": "AIR CONDITIONER 2.0 T  IACS24AK3TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017094",
+      "Material description": "AIR CONDITIONER 1.5 T DC  IACS18L0TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017100",
+      "Material description": "AIR CONDITIONER 1.5 T  IACS18CK3TCC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017117",
+      "Material description": "AIR CONDITIONER 1.5 T  IACS18CK3TCW",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017124",
+      "Material description": "AIR CONDITIONER 1.0 T DC  IACS12L0TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017131",
+      "Material description": "AIR CONDITIONER 2.0 T DC  IACS24L0TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017148",
+      "Material description": "DUMMY AIR CONDITIONER 1.0 T IACS12AK3TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017155",
+      "Material description": "DUMMY AIR CONDITIONER 1.5 T IACS18AK3TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017162",
+      "Material description": "DUMMY AIR CONDITIONER 2.0 T IACS24AK3TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017179",
+      "Material description": "DUMMY AIR CONDI. 1.0 T DC IACS12L0TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017186",
+      "Material description": "DUMMY AIR CONDI. 1.5 T DC IACS18L0TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017193",
+      "Material description": " DUMMY AIR CONDITIONER 1.0 T IACS12BF5TC",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017209",
+      "Material description": " DUMMY AIR CONDITIONER 1.5 T IACS18BF5TP",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017216",
+      "Material description": "AIR CONDITIONER 1.0 T  IACS12AK2TC [CU]",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017223",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18AK2TC [CU]",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017230",
+      "Material description": "AIR CONDITIONER 2.0 T IACS24AK2TC[CU]",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017247",
+      "Material description": "AIR CONDITIONER 1.0 T IACS12KA3TC[CU]",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017254",
+      "Material description": "AIR CONDITIONER 1.0 T  IACS12KA3TP [PFC]",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017261",
+      "Material description": "AIR CONDITIONER 1.5 T  IACS18KA3TC[CU]",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017278",
+      "Material description": "AIR CONDITIONER 1.5 T  IACS18KA3TP[PFC]",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017285",
+      "Material description": "SAMPLE AC DUMMY  INDOOR UNIT",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017292",
+      "Material description": "SAMPLE AC DUMMY OUT DOOR UNIT",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017308",
+      "Material description": "SAMPLE AIR CONDITIONER INDOOR UNIT",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017315",
+      "Material description": "SAMPLE AIR CONDITIONER  OUT DOOR UNIT",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017322",
+      "Material description": "SPLIT AC 1.0 T  IACS12AK2TC [CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017339",
+      "Material description": "SPLIT AC 1.0 T  IACS12AK2TC [CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017346",
+      "Material description": "SPLIT AC 1.5 T IACS18AK2TC [CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017353",
+      "Material description": "SPLIT AC 1.5 T IACS18AK2TC [CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017360",
+      "Material description": "SPLIT AC 2.0 T IACS24AK2TC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017377",
+      "Material description": "SPLIT AC 2.0 T IACS24AK2TC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017384",
+      "Material description": "SPLIT AC 1.0 T  IACS12KA3TC [CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017391",
+      "Material description": "SPLIT AC 1.0 T  IACS12KA3TC [CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017407",
+      "Material description": "SPLIT AC 1.0 T  IACS12KA3TP [PFC]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017414",
+      "Material description": "SPLIT AC 1.0 T  IACS12KA3TP [PFC]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017421",
+      "Material description": "SPLIT AC 1.5 T  IACS18KA3TC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017438",
+      "Material description": "SPLIT AC 1.5 T  IACS18KA3TC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017445",
+      "Material description": "SPLIT AC 1.5 T  IACS18KA3TP[PFC]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017452",
+      "Material description": "SPLIT AC 1.5 T  IACS18KA3TP[PFC]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017469",
+      "Material description": "SPLIT AC 1.5 T  IACS18BF5TP -ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017476",
+      "Material description": "SPLIT AC 1.5 T  IACS18BF5TP -IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017483",
+      "Material description": "SPLIT AC 1.0 T DC  IACS12L0TC-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017490",
+      "Material description": "SPLIT AC 1.0 T DC  IACS12L0TC-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017506",
+      "Material description": "SPLIT AC 1.5 T DC  IACS18L0TC-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017513",
+      "Material description": "SPLIT AC 1.5 T DC  IACS18L0TC-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017520",
+      "Material description": "SPLIT AC 2.0 T DC  IACS24L0TC-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017537",
+      "Material description": "SPLIT AC 2.0 T DC  IACS24L0TC-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017544",
+      "Material description": "SPLIT AC 1.0 T IACS12AKI3TC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017551",
+      "Material description": "SPLIT AC 1.0 T IACS12AKI3TC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017568",
+      "Material description": "SPLIT AC 1.5 T  IACS18IA3TC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017575",
+      "Material description": "SPLIT AC 1.5 T IACS18IA3TC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017582",
+      "Material description": "SPLIT AC 1.5 T IACS18AKI3TC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017599",
+      "Material description": "SPLIT AC 1.5 T IACS18AKI3TC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017605",
+      "Material description": "SPLIT AC 1.0 T IACS12KD5TC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017612",
+      "Material description": "SPLIT AC 1.0 T IACS12KD5TC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017629",
+      "Material description": "SPLIT AC 1.5 T IACS18KD5TP[PFC]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017636",
+      "Material description": "SPLIT AC 1.5 T IACS18KD5TP[PFC]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017643",
+      "Material description": "SPLIT AC 1.5 T IACS18IA5TC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017650",
+      "Material description": "SPLIT AC 1.5 T IACS18IA5TC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017667",
+      "Material description": "SPLIT AC 1.0 T IACS12JCCTC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017674",
+      "Material description": "SPLIT AC 1.0 T IACS12JCCTC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017681",
+      "Material description": "SPLIT AC 1.5 T IACS18JCCTC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017698",
+      "Material description": "SPLIT AC 1.5 T IACS18JCCTC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017704",
+      "Material description": "SPLIT AC 1.0 T IACS12JCHTC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017711",
+      "Material description": "SPLIT AC 1.0 T IACS12JCHTC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017728",
+      "Material description": "SPLIT AC 1.5 T IACS18JCHTC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017735",
+      "Material description": "SPLIT AC 1.5 T IACS18JCHTC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017742",
+      "Material description": "SPLIT AC 2.0 T IACS24JCHTC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017759",
+      "Material description": "SPLIT AC 2.0 T IACS24JCHTC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017766",
+      "Material description": "SPLIT AC 1.0 T IACS12KA3TGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017780",
+      "Material description": "SPLIT AC 1.0 T IACS12KA3TGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017797",
+      "Material description": "SPLIT AC 1.0 T IACS12IA5TGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017803",
+      "Material description": "SPLIT AC 1.0 T IACS12IA5TGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017810",
+      "Material description": "SPLIT AC 1.5T IACS18AKI3TGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017827",
+      "Material description": "SPLIT AC 1.5T IACS18AKI3TGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017834",
+      "Material description": "SPLIT AC 1.5 T  IACS18KA3TGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017841",
+      "Material description": "SPLIT AC 1.5 T  IACS18KA3TGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017858",
+      "Material description": "SPLIT AC 1.5T IACS18IA3TGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017865",
+      "Material description": "SPLIT AC 1.5T IACS18IA3TGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017872",
+      "Material description": "SPLIT AC 1.5T IACS18IA5TGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017889",
+      "Material description": "SPLIT AC 1.5T IACS18IA5TGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017896",
+      "Material description": "SPLIT AC 2.0 T IACS24KA3TGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017902",
+      "Material description": "SPLIT AC 2.0 T IACS24KA3TGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017919",
+      "Material description": "SPLIT AC 1.0 T IACS12JCCTGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017926",
+      "Material description": "SPLIT AC 1.0 T IACS12JCCTGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017940",
+      "Material description": "SPLIT AC 1.5 T IACS18JCCTGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017957",
+      "Material description": "SPLIT AC 1.5 T IACS18JCHTGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017964",
+      "Material description": "SPLIT AC 1.5 T IACS18JCHTGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017993",
+      "Material description": "SPLIT AC 1.5 T IACS18JCCTGC-IDU(WRONG)",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287017995",
+      "Material description": "SPLIT AC 1.5 T IACS18JCCTGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028007",
+      "Material description": "SPLIT AC 2 T IACS24JCHTGC[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028014",
+      "Material description": "SPLIT AC 2 T IACS24JCHTGC[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028021",
+      "Material description": "SAMPLE AIR PURIFIER",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028038",
+      "Material description": "SPLIT AC IACS12AK3TGC(CU)- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028045",
+      "Material description": "SPLIT AC IACS12AK3TGC(CU)- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028052",
+      "Material description": "SPLIT AC 1.0 T  IACS12KDCTGC(CU)-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028069",
+      "Material description": "SPLIT AC 1.0 T  IACS12KDCTGC(CU)-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028076",
+      "Material description": "SPLIT AC 1.5 T  IACS18KDCTGC(CU)-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028083",
+      "Material description": "SPLIT AC 1.5 T  IACS18KDCTGC(CU)-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028090",
+      "Material description": "AIR CONDITIONER 1.0 T IACS12AK3TC-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028106",
+      "Material description": "AIR CONDITIONER 1.0 T IACS12AK3TC-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028113",
+      "Material description": "AIR CONDITIONER 1.0 T IACS12BF5TC-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028120",
+      "Material description": "AIR CONDITIONER 1.0 T IACS12BF5TC-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028137",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18AK3TC-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028144",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18AK3TC-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028151",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18CK3TCG-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028168",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18CK3TCG-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028175",
+      "Material description": "AIR CONDITIONER 2.0 T IACS24AK3TC-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028182",
+      "Material description": "AIR CONDITIONER 2.0 T IACS24AK3TC-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028199",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18CK3TCC-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028205",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18CK3TCC-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028212",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18CK3TCW-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028229",
+      "Material description": "AIR CONDITIONER 1.5 T IACS18CK3TCW-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028236",
+      "Material description": "SPLIT AC 1.5 T IACS18JCHTGCA[CU]-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028243",
+      "Material description": "SPLIT AC 1.5 T IACS18JCHTGCA[CU]-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028250",
+      "Material description": "SPLIT AC 1.0T IAFS12FU2A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028267",
+      "Material description": "SPLIT AC 1.0T IAFS12FU2A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028274",
+      "Material description": "SPLIT AC 1.5T IAFS18FU2A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028281",
+      "Material description": "SPLIT AC 1.5TIAFS18FU2A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028298",
+      "Material description": "SPLIT AC 2.0T IAFS24FU2A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028304",
+      "Material description": "SPLIT AC 2.0 TIAFS24FU2A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028311",
+      "Material description": "SPLIT AC 1.0T IAFS12FU3A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028328",
+      "Material description": "SPLIT AC 1.0T IAFS12FU3A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028335",
+      "Material description": "SPLIT AC 1.5T IAFS18FU3A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028342",
+      "Material description": "SPLIT AC 1.5T IAFS18FU3A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028359",
+      "Material description": "SPLIT AC 2.0T IAFS24FU3A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028366",
+      "Material description": "SPLIT AC 2.0T IAFS24FU3A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028373",
+      "Material description": "SPLIT AC 1.0T IACC12FV3A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028380",
+      "Material description": "SPLIT AC 1.0T IACC12FV3A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028397",
+      "Material description": "SPLIT AC 1.5T IACC18FV3A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028403",
+      "Material description": "SPLIT AC 1.5T IACC18FV3A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028410",
+      "Material description": "SPLIT AC 2.0T IACC24FV3A4C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028427",
+      "Material description": "SPLIT AC 2.0T IACC24FV3A4C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028434",
+      "Material description": "SPLIT AC 1.0T IACC12LS5A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028441",
+      "Material description": "SPLIT AC 1.0T IACC12LS5A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028458",
+      "Material description": "SPLIT AC 1.5T IACC18LS5A3C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028465",
+      "Material description": "SPLIT AC 1.5T IACC18LS5A3C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028472",
+      "Material description": "SPLIT AC 1.5T IAHC18LS3A4C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028489",
+      "Material description": "SPLIT AC 1.5T IAHC18LS3A4C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028496",
+      "Material description": "SPLIT AC 2.0T IAHC24LS3A4C- IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028502",
+      "Material description": "SPLIT AC 2.0T IAHC24LS3A4C- ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028519",
+      "Material description": "SPLIT AC 1.5 T IAFS18XA2T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028526",
+      "Material description": "SPLIT AC 1.5 T IAFS18XA2T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028533",
+      "Material description": "SPLIT AC 1.0 T IAFS12XA3T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028540",
+      "Material description": "SPLIT AC 1.0 T IAFS12XA3T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028557",
+      "Material description": "SPLIT AC 1.5 T IAFS18XA3T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028564",
+      "Material description": "SPLIT AC 1.5 T IAFS18XA3T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028571",
+      "Material description": "SPLIT AC 1.0 T IACC12IA3T4C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028588",
+      "Material description": "SPLIT AC 1.0 T IACC12IA3T4C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028595",
+      "Material description": "SPLIT AC 1.5 T IACC18IA3T4C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028601",
+      "Material description": "SPLIT AC 1.5 T IACC18IA3T4C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028618",
+      "Material description": "SPLIT AC 1.0 T IACC12IA5T4C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028625",
+      "Material description": "SPLIT AC 1.0 T IACC12IA5T4C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028632",
+      "Material description": "SPLIT AC 1.5 T IACC18IA5T4C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028649",
+      "Material description": "SPLIT AC 1.5 T IACC18IA5T4C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028656",
+      "Material description": "SPLIT AC 1.5 T IAHC18JC3T4C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028663",
+      "Material description": "SPLIT AC 1.5 T IAHC18JC3T4C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028670",
+      "Material description": "SPLIT AC 2.0 T IAHC24JC3T4C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028687",
+      "Material description": "SPLIT AC 2.0 T IAHC24JC3T4C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028694",
+      "Material description": "SPLIT AC 2.0 T IAFS24XA3T4C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028700",
+      "Material description": "SPLIT AC 2.0 T IAFS24XA3T4C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028717",
+      "Material description": "SPLIT AC 1.5 T IAFS18XA3T3CA-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028724",
+      "Material description": "SPLIT AC 1.5 T IAFS18XA3T3CA-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028731",
+      "Material description": "SPLIT AC 1.5 T IACC18IA3T4CA-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028748",
+      "Material description": "SPLIT AC 1.5 T IACC18IA3T4CA-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028755",
+      "Material description": "SPLIT AC 1.5 T IACC18IA5T4CA-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028762",
+      "Material description": "SPLIT AC 1.5 T IACC18IA5T4CA-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028779",
+      "Material description": "SPLIT AC 1.5 T IACC18IA3T4C-IDU DUMMY",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028786",
+      "Material description": "SPLIT AC 1.5 T IAFS18XA3T3C-IDU DUMMY",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028793",
+      "Material description": "SPLIT AC 2.0 T IAFS24XA3T4C-IDU DUMMY",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028809",
+      "Material description": "SPLIT AC 1.0 T IACF12X23E3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028816",
+      "Material description": "SPLIT AC 1.5 T IACF18X23E3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028823",
+      "Material description": "SPLIT AC 2.0 T IACF24X23E3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028830",
+      "Material description": "SPLIT AC 1.0 T IACF12X23E3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028847",
+      "Material description": "SPLIT AC 1.5 T IACF18X23E3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028854",
+      "Material description": "SPLIT AC 2.0 T IACF24X23E3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028861",
+      "Material description": "SPLIT AC 1.5 T IACC18IA3T4CA-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028878",
+      "Material description": "SPLIT AC 1.5 T IACC18IA3T4CA-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028885",
+      "Material description": "SPLIT AC 1.0 T IACI12X83T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028892",
+      "Material description": "SPLIT AC 1.0 T IACI12X83T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028908",
+      "Material description": "SPLIT AC 1.5 T IACI18X83T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028915",
+      "Material description": "SPLIT AC 1.5 T IACI18X83T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028922",
+      "Material description": "SPLIT AC 1.5 T IACI18X95T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028939",
+      "Material description": "SPLIT AC 1.5 T IACI18X95T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028946",
+      "Material description": "SPLIT AC 2.0 T IACI24X83T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028953",
+      "Material description": "SPLIT AC 2.0 T IACI24X83T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028960",
+      "Material description": "SPLIT AC 1.5 T IAHI18X93T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028977",
+      "Material description": "SPLIT AC 1.5 T IAHI18X93T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028984",
+      "Material description": "SPLIT AC 2.0 T IAHI24X93T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287028991",
+      "Material description": "SPLIT AC 2.0 T IAHI24X93T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029004",
+      "Material description": "SPLIT AC 1.0 T IACF12X23E3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029011",
+      "Material description": "SPLIT AC 1.5 T IACF18X23E3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029028",
+      "Material description": "SPLIT AC 1.5 T IACI18I93T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029035",
+      "Material description": "SPLIT AC 1.5 T IACI18I93T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029042",
+      "Material description": "SPLIT AC 1.5 T IACI18I13T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029059",
+      "Material description": "SPLIT AC 1.5 T IACI18I13T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029066",
+      "Material description": "SPLIT AC 1.0 T IACI12I93T3C - IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029073",
+      "Material description": "SPLIT AC 1.0 T IACI12I93T3C - ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029080",
+      "Material description": "SPLIT AC 1.5 T IACI18I15T3C - IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029097",
+      "Material description": "SPLIT AC 1.5 T IACI18I15T3C - ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029103",
+      "Material description": "SPLIT AC 2.0 T IACI24I13T3C - IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029110",
+      "Material description": "SPLIT AC 2.0 T IACI24I13T3C - ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029127",
+      "Material description": "SPLIT AC 1.0T IACI12G83T3C - IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029134",
+      "Material description": "SPLIT AC 1.0T IACI12G83T3C - ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029141",
+      "Material description": "SPLIT AC 1.5T IACI18G83T3C - IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029158",
+      "Material description": "SPLIT AC 1.5T IACI18G83T3C - ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029165",
+      "Material description": "SPLIT AC 1.5 T IACI18G85T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029172",
+      "Material description": "SPLIT AC 1.5 T IACI18G85T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029189",
+      "Material description": "SPLIT AC 2.0 T IACI24G83T3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287029196",
+      "Material description": "SPLIT AC 2.0 T IACI24G83T3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287100604",
+      "Material description": "SAMPLE AIR CONDITIONER",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200007",
+      "Material description": "SPLIT AC 1.0 T IACI12GA3G3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200014",
+      "Material description": "SPLIT AC 1.0 T IACI12GA3G3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200021",
+      "Material description": "SPLIT AC 1.5 T IACI18GB3G3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200038",
+      "Material description": "SPLIT AC 1.5 T IACI18GB3G3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200045",
+      "Material description": "SPLIT AC 2.0 T IACI24GB3G3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200052",
+      "Material description": "SPLIT AC 2.0 T IACI24GB3G3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200069",
+      "Material description": "SPLIT AC 1.5 T IACI18GB5G3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200076",
+      "Material description": "SPLIT AC 1.5 T IACI18GB5G3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200083",
+      "Material description": "SPLIT AC 1.0 T IACI12SA3G3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200090",
+      "Material description": "SPLIT AC 1.0 T IACI12SA3G3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200106",
+      "Material description": "SPLIT AC 1.5 T IACI18SA3G3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200113",
+      "Material description": "SPLIT AC 1.5 T IACI18SA3G3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200120",
+      "Material description": "SPLIT AC 2.0 T IACI24SA3G3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200137",
+      "Material description": "SPLIT AC 2.0 T IACI24SA3G3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200144",
+      "Material description": "SPLIT AC 1.5 T IACI18SA5G3C-IDU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903287200151",
+      "Material description": "SPLIT AC 1.5 T IACI18SA5G3C-ODU",
+      "Matl Group": "Air Conditioner"
+    },
+    {
+      "Material": "000008903289017766",
+      "Material description": "AC 1.0 T IACS12KA3TGC[CU]IDU-WRONG CODE",
+      "Matl Group": "Air Conditioner"
+    }
+  ]
+}
+
+]

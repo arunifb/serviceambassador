@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".dailyreport.DailyreportActivity"
+    tools:showIn="@layout/activity_dailyreport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/ifboffice"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:orientation="vertical"
+            android:background="#1000">
+
+        <TextView
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/tv_currentdate"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="17sp"/>
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="@font/roboto_regular"
+                android:id="@+id/tv_closecount"/>
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rv_dailyreport"/>
+
+    </LinearLayout>
+
+
+
+
+
+    <HorizontalScrollView
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#666"
+                android:orientation="horizontal"
+                android:divider="#FFF"
+                android:dividerPadding="0.05dp"
+                android:showDividers="middle">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:text="ID"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:text="Call Type"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:text="Assign Date"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:text="Closed Date"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="6"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="6"
+                    android:text="Customer Name"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:text="Customer Phone"
+                    android:textColor="#FFF"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:ems="6"/>
+
+            </LinearLayout>
+
+            <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+
+            <!--<FrameLayout-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp">-->
+
+            <!--<Button-->
+
+            <!--android:id="@+id/btn_pre"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="pre"-->
+            <!--/>-->
+
+            <!--<LinearLayout-->
+            <!--android:visibility="gone"-->
+            <!--android:id="@+id/linear_scroll"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_toRightOf="@+id/btn_pre"-->
+            <!--/>-->
+
+            <!--<Button-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_toRightOf="@+id/linear_scroll"-->
+            <!--android:id="@+id/btn_Next"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Next >>"/>-->
+
+            <!--</RelativeLayout>-->
+
+            <!--</FrameLayout>-->
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".negative_response.fragment.NrStatusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/nr_nr_ll_status_details"
+        >
+
+        <include layout="@layout/item_progressbar"/>
+        <include layout="@layout/item_no_internet"/>
+        <include layout="@layout/item_error_popup"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/black_border"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                >
+                <Spinner
+
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:paddingLeft="7dp"
+                    android:id="@+id/nr_status_spnr_status"/>
+            </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:id="@+id/nr_ll_select_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:background="@drawable/black_border"
+                        android:layout_gravity="left|center"
+                        android:gravity="left|center"
+                        android:layout_width="0dp"
+                        android:paddingLeft="10dp"
+                        android:layout_weight="1"
+                        android:text="Select Recheck Date"
+                        android:textSize="14sp"
+                        android:id="@+id/nr_tv_select_date"
+                        android:fontFamily="@font/roboto_regular"
+                        android:layout_height="35dp"
+                        android:clickable="false"/>
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_today_red"
+                        android:layout_gravity="center"
+                        android:clickable="false"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal">
+
+                    <Button
+
+
+                        android:id="@+id/nr_status_btn_submit"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="35dp"
+                        android:background="@drawable/button_shape"
+                        android:text="Submit"
+                        android:clickable="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/white"
+                        style="?android:borderlessButtonStyle"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appointment.Create_Appointment"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:textIsSelectable="true"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/tv_calltype"
+                        android:textColor="@color/apptextcolor"
+                        android:fontFamily="@font/roboto_regular"
+                        android:textSize="21sp"
+                        android:background="@drawable/image_shape"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:layout_width="0dp"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:fontFamily="@font/roboto_regular"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+                            android:id="@+id/tv_custname"/>
+
+                        <TextView
+                            android:id="@+id/tv_callbookdate"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="right|center"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="2"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="right|center"
+                            android:textColor="@color/apptextcolor"
+                            android:textIsSelectable="true" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:visibility="gone"
+                            android:textIsSelectable="true"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:textColor="@color/black"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_servicetype"
+                            android:fontFamily="@font/roboto_regular"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:layout_gravity="left|center"
+                            android:gravity="left|center"
+                            android:id="@+id/tv_ticketno"
+                            android:fontFamily="@font/roboto_regular"/>
+
+                        <TextView
+                            android:textIsSelectable="true"
+                            android:textColor="@color/black"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_rcnno"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:fontFamily="@font/roboto_regular"/>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:id="@+id/iv_call"
+                                android:layout_weight="1"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:src="@drawable/phone_black_24dp"
+                                android:background="?android:attr/selectableItemBackgroundBorderless"
+                                />
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:textIsSelectable="true"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2.5"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_status"
+                                    android:textColor="@color/btn_login_facebook"
+                                    android:fontFamily="@font/roboto_regular"/>
+
+
+                                <TextView
+                                    android:textIsSelectable="true"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="2.5"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_escal"
+                                    android:layout_gravity="right|center"
+                                    android:gravity="right|center"
+                                    android:layout_marginRight="10dp"
+                                    android:textColor="@color/apptextcolor"
+                                    android:fontFamily="@font/roboto_regular"/>
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textIsSelectable="true"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_modelname"
+                                    android:textColor="@color/black"
+                                    android:fontFamily="@font/roboto_regular"/>
+
+
+                            </LinearLayout>
+
+
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+
+                                <TextView
+                                    android:textIsSelectable="true"
+                                    android:layout_width="match_parent"
+                                    android:layout_weight="7"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_pending_status"
+                                    android:textColor="@color/black"
+                                    android:layout_gravity="center"
+                                    android:gravity="left|center"
+                                    android:textSize="12sp"
+                                    android:fontFamily="@font/roboto_regular"/>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                >
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_problemdescription"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:textColor="@color/black"
+                                    />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:visibility="gone"
+                            android:gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:id="@+id/ll_medium"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_gravity="center"
+                                android:gravity="center">
+
+                                <ImageView
+
+                                    android:id="@+id/iv_priority"
+                                    android:layout_width="19dp"
+                                    android:layout_height="18dp"
+                                    android:clickable="false"
+                                    android:src="@drawable/ic_assistant_photo_black_24dp" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="V. High Priority"
+                                    android:textColor="@color/apptextcolor"
+                                    android:textSize="11sp"
+                                    />
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+
+
+        <LinearLayout
+
+             android:id="@+id/ll_select_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/black_border"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_select_date"
+                android:layout_gravity="left|center"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Select Date"
+                android:textSize="14sp"
+                android:paddingStart="10dp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_today_red"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:layout_marginEnd="10dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+              android:id="@+id/ll_select_time"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/black_border">
+
+            <TextView
+                android:id="@+id/tv_select_time"
+                android:clickable="false"
+                android:layout_width="0dp"
+                android:layout_gravity="left|center"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="left|center"
+
+                android:layout_height="wrap_content"
+                android:text="Select time"
+                android:paddingStart="10dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                />
+
+            <ImageView
+                android:clickable="false"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/iconsclock"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_border"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="7dp"
+                android:id="@+id/spnr_slot"/>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/et_remark"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:maxLines="3"
+            android:background="@drawable/black_border"
+            android:layout_margin="30dp"
+            android:hint="Enter Remarks"
+            android:gravity="start"
+            android:padding="10dp"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btn_slot_submit"
+            android:background="@drawable/login_round_button"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            style="?android:borderlessButtonStyle" />
+
+    </LinearLayout>
+
+   </ScrollView>
+
+</LinearLayout>

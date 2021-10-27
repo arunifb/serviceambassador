@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.SearchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_progressbar"/>
+        <include layout="@layout/item_no_internet"/>
+        <include layout="@layout/item_error_popup"/>
+
+
+
+         <TextView
+             android:visibility="gone"
+             android:id="@+id/tv_search"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Search"
+             android:textSize="15dp"
+             android:layout_gravity="end"
+             android:paddingEnd="10dp"
+             android:textColor="@color/apptextcolor"
+             android:gravity="right"
+             android:layout_marginTop="20dp"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:layout_marginTop="25dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ticket No"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_medium"/>
+
+                <EditText
+                    android:id="@+id/et_ticketno"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/black_border"
+                    android:hint="Enter Ticket No"
+                    android:paddingStart="10dp"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_medium"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_border"
+                    android:orientation="vertical"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="7dp"
+                        android:id="@+id/spnr_search"/>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mobile No"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_medium"/>
+
+                <EditText
+                    android:id="@+id/et_mobile"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="@drawable/black_border"
+                    android:hint="Enter Mobile No"
+                    android:paddingStart="10dp"
+                    android:textSize="14dp"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Call Type"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_medium"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_border"
+                    android:orientation="vertical"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="7dp"
+                        android:id="@+id/spnr_calltype"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_medium"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/black_border"
+                    android:orientation="vertical"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="7dp"
+                        android:id="@+id/spnr_product"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date Range"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/roboto_medium"/>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/black_border"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:id="@+id/ll_startdate"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:paddingStart="10dp"
+                            android:layout_gravity="left|center"
+                            android:gravity="left"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="From Date"
+                            android:textSize="14sp"
+                            android:id="@+id/tv_startdate"
+                            android:fontFamily="@font/roboto_regular"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"/>
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_today_red"
+                            android:layout_gravity="center"
+                            android:clickable="false"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:id="@+id/ll_enddate"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:paddingStart="10dp"
+                            android:clickable="false"
+                            android:layout_width="0dp"
+                            android:layout_gravity="left|center"
+                            android:layout_weight="1"
+                            android:textSize="14sp"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="left|center"
+                            android:id="@+id/tv_enddate"
+                            android:layout_height="wrap_content"
+                            android:text="To Date"/>
+
+                        <ImageView
+                            android:clickable="false"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_today_red"
+                            android:layout_gravity="center"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+        <Button
+
+            android:textColor="@color/white"
+            android:id="@+id/btn_search"
+            android:background="@drawable/login_round_button"
+            android:layout_width="match_parent"
+            android:layout_height="40.0dip"
+            android:layout_margin="20dp"
+            android:text="search"
+
+            android:layout_marginEnd="20dp"
+            android:textAllCaps="false"
+            style="?android:borderlessButtonStyle" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_nodata"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/lv_search"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
