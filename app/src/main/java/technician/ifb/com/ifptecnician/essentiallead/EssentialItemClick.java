@@ -1,4 +1,4 @@
-package technician.ifb.com.ifptecnician.essentialdetails;
+package technician.ifb.com.ifptecnician.essentiallead;
 
 import android.view.View;
 

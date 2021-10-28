@@ -32,7 +32,7 @@ import java.util.List;
 
 import technician.ifb.com.ifptecnician.adapter.EssentialListAdapter;
 import technician.ifb.com.ifptecnician.allurl.AllUrl;
-import technician.ifb.com.ifptecnician.essentialdetails.EssentialItemClick;
+import technician.ifb.com.ifptecnician.essentiallead.EssentialItemClick;
 import technician.ifb.com.ifptecnician.essentiallead.EssentialLeadList;
 import technician.ifb.com.ifptecnician.essentiallead.essentialmodel.EssentialList;
 import technician.ifb.com.ifptecnician.internet.CheckConnectivity;
@@ -55,6 +55,7 @@ public class EssentialListActivity extends AppCompatActivity implements Essentia
 
         progressBar=findViewById(R.id.taskProcessing);
         rv_essentials=findViewById(R.id.rv_essentials);
+
 
         if (CheckConnectivity.getInstance(this).isOnline()){
 
@@ -131,6 +132,7 @@ public class EssentialListActivity extends AppCompatActivity implements Essentia
                                     essential.setAddress(jsonObject.optString("address"));
                                     essential.setFranchise(jsonObject.optString("franchise"));
                                     essential.setBranch(jsonObject.optString("branch"));
+                                    essential.setProductid(jsonObject.optString("productid"));
 
                                     essentialLists.add(essential);
 

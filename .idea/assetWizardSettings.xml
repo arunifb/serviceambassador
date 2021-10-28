@@ -72,7 +72,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/fiber_manual_record/baseline_fiber_manual_record_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/delete_forever/baseline_delete_forever_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -82,8 +82,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="c3bcbc" />
-                            <entry key="outputName" value="ic_un_check" />
+                            <entry key="color" value="c12c2c" />
+                            <entry key="outputName" value="ic_delete" />
                             <entry key="sourceFile" value="C:\Users\CHIRANJIB\Downloads\handshake.svg" />
                           </map>
                         </option>

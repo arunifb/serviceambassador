@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import technician.ifb.com.ifptecnician.R;
-import technician.ifb.com.ifptecnician.essentialdetails.EssentialItemClick;
+import technician.ifb.com.ifptecnician.essentiallead.EssentialItemClick;
 import technician.ifb.com.ifptecnician.essentiallead.essentialmodel.EssentialList;
 
 public class EssentialListAdapter extends RecyclerView.Adapter<EssentialListAdapter.ViewHolder>{
@@ -49,12 +49,12 @@ public class EssentialListAdapter extends RecyclerView.Adapter<EssentialListAdap
         EssentialList essentialItem = essentialList.get(position);
 
         holder.tv_custname.setText(essentialItem.getSoldToPartyList());
-        holder.tv_calltype.setText(essentialItem.getProcessTypeTxt());
+        holder.tv_calltype.setText(essentialItem.getZzmatGrp());
         holder.tv_address.setText(essentialItem.getAddress());
         holder.tv_customercode.setText(essentialItem.getSoldToParty());
         holder.tv_customer_no.setText(essentialItem.getCallerNo());
         holder.tv_status.setText(essentialItem.getConcatstatuser());
-        holder.tv_zzmatgrp.setText(essentialItem.getZzmatGrp());
+        holder.tv_zzmatgrp.setText(essentialItem.getProcessTypeTxt());
         holder.tv_zzproduct_desc.setText(essentialItem.getZzproductDesc());
 
         if (essentialItem.geteMail()!= null || !essentialItem.geteMail().equals("")) {
@@ -97,6 +97,7 @@ public class EssentialListAdapter extends RecyclerView.Adapter<EssentialListAdap
         ImageView iv_call,iv_rcn,iv_alt,iv_thum,iv_calender;
         LinearLayout ll_alt,item_task_ll_medium;
         CardView task_cv;
+
 
         public ViewHolder(@NonNull View view) {
             super(view);

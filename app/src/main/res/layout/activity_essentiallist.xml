@@ -17,7 +17,40 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_centerVertical= "true"
+                    android:src="@drawable/ic_backarrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    />
+
+               <TextView
+                     android:textSize="16sp"
+                    android:layout_marginLeft= "10dp"
+                     android:text="Essential List"
+                     android:layout_toRightOf="@+id/img_back"
+                     android:layout_centerVertical= "true"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                   />
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 

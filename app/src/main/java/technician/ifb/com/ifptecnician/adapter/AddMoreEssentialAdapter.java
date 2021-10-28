@@ -12,21 +12,24 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import technician.ifb.com.ifptecnician.EssentialsDetailsActivity;
 import technician.ifb.com.ifptecnician.R;
+import technician.ifb.com.ifptecnician.essentialdetails.essentialsdetailsmodel.AddMoreItemDeleteCallback;
+import technician.ifb.com.ifptecnician.essentialdetails.essentialsdetailsmodel.EssentialItemList;
 
 public class AddMoreEssentialAdapter extends RecyclerView.Adapter<AddMoreEssentialAdapter.ViewHolder>{
 
     private Context mContext;
-    private List<String> addedlist;
+    private List<EssentialItemList> addedlist;
 
     boolean clicked = false;
+    AddMoreItemDeleteCallback addMoreItemDeleteCallback;
 
 
-    public AddMoreEssentialAdapter(Context context, List<String> addedlist) {
+    public AddMoreEssentialAdapter(Context context, List<EssentialItemList> addedlist, AddMoreItemDeleteCallback addMoreItemDeleteCallback) {
 
         this.mContext = context;
         this.addedlist = addedlist;
+        this.addMoreItemDeleteCallback = addMoreItemDeleteCallback;
 
 
     }
@@ -41,21 +44,18 @@ public class AddMoreEssentialAdapter extends RecyclerView.Adapter<AddMoreEssenti
     @Override
     public void onBindViewHolder(@NonNull AddMoreEssentialAdapter.ViewHolder holder, int position) {
 
-        holder.essential_item.setText(addedlist.get(position));
+        EssentialItemList essentialItemList = addedlist.get(position);
 
-        holder.img_select.setOnClickListener(new View.OnClickListener() {
+        holder.essential_item.setText(essentialItemList.getComponentDescription());
+        holder.essential_component.setText(essentialItemList.getComponent());
+
+        holder.img_delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                if (clicked){
+                if(addMoreItemDeleteCallback !=null){
 
-                    holder.img_select.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_checkcircle));
-
-                    clicked = false;
-
-                }else{
-                    clicked = true;
-                    holder.img_select.setImageDrawable(mContext.getResources().getDrawable(R.drawable.ic_un_check));
+                    addMoreItemDeleteCallback.OnAddMoreItemDelete(view,position);
 
                 }
 
@@ -93,8 +93,6 @@ public class AddMoreEssentialAdapter extends RecyclerView.Adapter<AddMoreEssenti
                 }
 
 
-
-
             }
         });
 
@@ -112,8 +110,8 @@ public class AddMoreEssentialAdapter extends RecyclerView.Adapter<AddMoreEssenti
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView essential_item,add_essential,essential_count,decrease_essential;
-        ImageView img_select;
+        TextView essential_item,add_essential,essential_count,decrease_essential,essential_component;
+        ImageView img_delete;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -122,7 +120,9 @@ public class AddMoreEssentialAdapter extends RecyclerView.Adapter<AddMoreEssenti
             add_essential = itemView.findViewById(R.id.add_essential);
             essential_count = itemView.findViewById(R.id.essential_count);
             decrease_essential = itemView.findViewById(R.id.decrease_essential);
-            img_select = itemView.findViewById(R.id.img_select);
+            img_delete = itemView.findViewById(R.id.img_delete);
+
+            essential_component = itemView.findViewById(R.id.essential_component);
 
         }
 

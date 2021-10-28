@@ -17,14 +17,60 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_centerVertical= "true"
+                    android:src="@drawable/ic_backarrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_marginLeft= "10dp"
+                    android:text="Essential Details"
+                    android:layout_toRightOf="@+id/img_back"
+                    android:layout_centerVertical= "true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
+
+    <ProgressBar
+        android:layout_below="@+id/essentials_toolbar"
+        android:id="@+id/taskProcessing"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:progressBackgroundTintMode="screen"
+        android:indeterminateOnly="true"
+        style="@style/MyProgressBarTwo"
+        android:theme="@style/MyProgressBarTwo"
+        android:progress="30"
+        android:secondaryProgress="60"/>
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/essential_card"
-        android:layout_below="@+id/essentials_toolbar"
+        android:layout_below="@+id/taskProcessing"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/white"
@@ -212,9 +258,9 @@
                         android:layout_width="0dp"
                         android:layout_weight="2.5"
                         android:layout_height="wrap_content"
-                        android:id="@+id/tv_escal"
+                        android:id="@+id/tv_zzmat_grpdetails"
                         android:layout_gravity="right|center"
-                        android:gravity="right|center"
+                        android:gravity="center"
                         android:layout_marginRight="10dp"
                         android:textColor="@color/btn_login_facebook"
                         android:fontFamily="@font/roboto_regular"/>
@@ -289,19 +335,97 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/essential_card"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginBottom="5dp">
+        android:padding="10dp"
+        android:background="@drawable/spinner_back"
+        android:layout_margin="5dp">
 
-        <TextView
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/line1">
+
+            <TextView
+                android:id="@+id/essential_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/black_semi_transparent" />
+
+            <TextView
+                android:id="@+id/essential_component_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/essential_txt" />
+
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/line1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:text="Add More Essentials"
-            android:visibility="gone"
-            android:textColor="@color/apptextcolor"
-            android:textSize="20sp" />
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/spinner_back"
+            android:layout_toLeftOf="@+id/img_select_essential"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/add_essential_txt"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/apptextcolor"
+                android:text="+"/>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/essential_count_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:background="@drawable/essential_itemcount"
+                android:textColor="@color/apptextcolor"
+                android:text="1"/>
+
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/decrease_essential_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="@color/apptextcolor"
+                android:text="-"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_select_essential"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_un_check" />
 
 
     </RelativeLayout>
@@ -312,7 +436,7 @@
         android:layout_marginTop="10dp"
         android:visibility="visible"
         android:layout_below="@+id/add_text_layout"
-        android:layout_margin="10dp"
+        android:layout_margin="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -321,26 +445,24 @@
             android:layout_toLeftOf="@+id/add_essentials"
             android:background="@drawable/spinner_back"
             android:layout_centerVertical= "true"
-            android:layout_marginLeft= "10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.toptoche.searchablespinnerlibrary.SearchableSpinner
                 android:id="@+id/search_essential"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="35dp" />
 
 
         </RelativeLayout>
 
 
-
         <ImageView
             android:id="@+id/add_essentials"
-            android:layout_alignParentRight="true"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_centerVertical= "true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:src="@drawable/add_circle_black_24dp"
             android:text="TextView" />
 
@@ -353,14 +475,36 @@
         android:id="@+id/rc_essentiallist"
         android:layout_marginTop="10dp"
         android:visibility="visible"
+        android:layout_above="@+id/rc_proceed_layout"
         android:layout_below="@+id/serachable_spinner_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
 
 
+<RelativeLayout
+    android:id="@+id/rc_proceed_layout"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal= "true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:background="@drawable/add_more_bg"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:text="Proceed"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop ="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
 
 
+
+</RelativeLayout>
 
 
 

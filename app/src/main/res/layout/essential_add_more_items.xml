@@ -8,27 +8,42 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-     <TextView
-         android:id="@+id/essential_item"
-         android:layout_width="wrap_content"
+     <RelativeLayout
+         android:layout_toLeftOf="@+id/line1"
+         android:layout_marginRight="10dp"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:text="TextView" />
+         >
 
-     <TextView
-         android:id="@+id/essential_item_cost"
-         android:layout_below="@+id/essential_item"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:text="₹70" />
+          <TextView
+              android:id="@+id/essential_item"
+              android:textColor="@color/black_semi_transparent"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView" />
+
+          <TextView
+              android:id="@+id/essential_component"
+              android:layout_below="@+id/essential_item"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              />
+
+
+
+     </RelativeLayout>
+
+
 
 
      <LinearLayout
+         android:id="@+id/line1"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_centerVertical="true"
          android:layout_marginRight="10dp"
          android:background="@drawable/spinner_back"
-         android:layout_toLeftOf="@+id/img_select"
+         android:layout_toLeftOf="@+id/img_delete"
          android:orientation="horizontal">
 
           <TextView
@@ -77,15 +92,13 @@
 
 
      <ImageView
-         android:id="@+id/img_select"
+         android:id="@+id/img_delete"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_alignParentEnd="true"
+         android:layout_alignParentTop = "true"
          android:layout_centerVertical="true"
-         app:srcCompat="@drawable/ic_un_check" />
-
-
-
+         app:srcCompat="@drawable/ic_delete" />
 
 
 
