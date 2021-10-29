@@ -206,6 +206,11 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
 
+        <activity
+            android:name=".ScanQRCodeForEssentialActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -437,10 +442,12 @@
             android:name=".EssentialListActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".EssentialsDetailsActivity"
-            android:screenOrientation="portrait"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaymentSummaryActivity"
             android:exported="false" />
 
         <receiver

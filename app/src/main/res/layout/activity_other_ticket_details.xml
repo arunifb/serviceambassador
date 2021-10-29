@@ -172,7 +172,7 @@
                                         android:layout_weight="1"
                                         android:layout_width="25dp"
                                         android:layout_height="25dp"
-                                        android:src="@drawable/phone_black_24dp"
+                                        android:src="@drawable/ic_call"
                                         android:background="?android:attr/selectableItemBackgroundBorderless"
                                         />
                                 </LinearLayout>
@@ -442,7 +442,7 @@
                                         android:layout_width="25dp"
                                         android:layout_height="25dp"
                                         android:layout_marginLeft="10dp"
-                                        android:src="@drawable/phone_black_24dp"
+                                        android:src="@drawable/ic_call"
                                         android:background="?android:attr/selectableItemBackgroundBorderless"
                                         />
 
@@ -530,12 +530,12 @@
                                         android:layout_width="0dp"
                                         android:layout_weight="1"
                                         android:layout_height="45dp"
-                                        android:background="@drawable/updateaddress_shape"
+                                        android:background="@drawable/updateaddress_shape1"
                                         android:text="Update Address"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginRight="10dp"
                                         android:id="@+id/btn_updateaddress"
-                                        android:foreground="@drawable/ripple"
+                                        android:foreground="@drawable/ripple1"
                                         />
 
                                     <Button
@@ -549,7 +549,7 @@
                                         android:layout_marginLeft="20dp"
                                         android:layout_marginRight="20dp"
                                         android:id="@+id/btn_openmap"
-                                        android:foreground="@drawable/ripple"
+                                        android:foreground="@drawable/ripple1"
                                         />
 
 
@@ -580,7 +580,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="30sp"
                                     android:orientation="horizontal"
-                                    android:background="@drawable/spinner_back"
+                                    android:background="@drawable/spinner_bg"
                                     android:divider="@color/apptextcolor"
                                     android:showDividers="middle"
                                     android:dividerPadding="1dp">
@@ -1315,7 +1315,7 @@
                             android:layout_height="match_parent"
                             android:orientation="horizontal"
                             android:divider="@color/apptextcolor"
-                            android:background="@drawable/spinner_back"
+                            android:background="@drawable/spinner_bg"
                             android:showDividers="middle"
                             android:dividerPadding="0.5dp"
                             android:layout_gravity="center"

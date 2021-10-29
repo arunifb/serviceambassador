@@ -79,7 +79,7 @@
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_gravity="center"
-                android:src="@drawable/summary_list"/>
+                android:src="@drawable/ic_backarrow"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -240,11 +240,10 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:orientation="horizontal"
-            android:background="@drawable/spinner_back"
+            android:background="@drawable/spinner_bg"
             android:divider="@color/apptextcolor"
             android:dividerPadding="1dp"
-            android:showDividers="middle"
-            >
+            android:showDividers="middle">
 
             <LinearLayout
                 android:visibility="gone"

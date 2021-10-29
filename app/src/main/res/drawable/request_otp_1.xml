@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:color="@color/colorRipple"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:radius="4.0dip" />
+            <solid android:color="@color/white" />
+            <stroke android:width="1.0dip" android:color="@color/login_button" />
+        </shape>
+    </item>
+</selector>

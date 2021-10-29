@@ -185,7 +185,7 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:layout_marginRight="10dp"
-                        android:src="@drawable/phone_black_24dp"
+                        android:src="@drawable/ic_call"
                         android:background="?attr/selectableItemBackgroundBorderless"
                         />
 
@@ -336,7 +336,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/essential_card"
         android:padding="10dp"
-        android:background="@drawable/spinner_back"
+        android:background="@drawable/spinner_bg"
         android:layout_margin="5dp">
 
         <RelativeLayout
@@ -370,7 +370,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
-            android:background="@drawable/spinner_back"
+            android:background="@drawable/spinner_bg"
             android:layout_toLeftOf="@+id/img_select_essential"
             android:orientation="horizontal">
 
@@ -443,7 +443,7 @@
 
         <RelativeLayout
             android:layout_toLeftOf="@+id/add_essentials"
-            android:background="@drawable/spinner_back"
+            android:background="@drawable/spinner_bg"
             android:layout_centerVertical= "true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -490,17 +490,21 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:background="@drawable/add_more_bg"
-        android:layout_margin="10dp"
-        android:textColor="@color/white"
-        android:text="Proceed"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp"
-        android:paddingTop ="10dp"
-        android:paddingBottom="10dp"
+        android:id="@+id/txt_proceed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/add_more_bg"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:text="Proceed"
+        android:textColor="@color/white" />
 
 
 

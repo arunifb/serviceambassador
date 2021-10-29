@@ -180,7 +180,7 @@
                             android:layout_gravity="end"
                             android:background="?attr/selectableItemBackgroundBorderless"
                             android:clickable="true"
-                            android:src="@drawable/phone_black_24dp"
+                            android:src="@drawable/ic_call"
                             />
 
 

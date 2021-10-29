@@ -194,7 +194,7 @@
                          <ImageView
                              android:layout_width="50dp"
                              android:layout_height="50dp"
-                             android:src="@drawable/saleicon"
+                             android:src="@drawable/sales_icon1"
                              android:layout_gravity="center"/>
                          <TextView
                              android:layout_width="match_parent"
@@ -225,7 +225,7 @@
                          <ImageView
                              android:layout_width="50dp"
                              android:layout_height="50dp"
-                             android:src="@drawable/pending_icon"
+                             android:src="@drawable/pending_1"
                              android:layout_gravity="center"/>
                          <TextView
                              android:layout_width="match_parent"
@@ -261,7 +261,7 @@
                              <ImageView
                                  android:layout_width="50dp"
                                  android:layout_height="50dp"
-                                 android:src="@drawable/saleicon"
+                                 android:src="@drawable/saleicon_1"
                                  android:layout_gravity="center"/>
                              <TextView
                                  android:layout_width="match_parent"
@@ -384,7 +384,7 @@
                              <ImageView
                                  android:layout_width="50dp"
                                  android:layout_height="50dp"
-                                 android:src="@drawable/saleicon"
+                                 android:src="@drawable/saleicon_1"
                                  android:layout_gravity="center"/>
                              <TextView
                                  android:layout_width="match_parent"
@@ -450,7 +450,7 @@
                              <ImageView
                                  android:layout_width="50dp"
                                  android:layout_height="50dp"
-                                 android:src="@drawable/saleicon"
+                                 android:src="@drawable/saleicon_1"
                                  android:layout_gravity="center"/>
                              <TextView
                                  android:layout_width="match_parent"

@@ -60,7 +60,7 @@
             android:id="@+id/et_search"
             android:inputType="text"
             android:textColor="@color/black"
-            android:background="@drawable/search_edittext_shape"
+            android:background="@drawable/search_edittext_shape1"
             android:hint="Spare Search"/>
 
     </LinearLayout>
@@ -95,7 +95,7 @@
               <ImageView
                   android:layout_width="20dp"
                   android:layout_height="20dp"
-                  android:src="@drawable/summary_list"/>
+                  android:src="@drawable/summary_list1"/>
 
                         <TextView
                             android:onClick="returnStock"

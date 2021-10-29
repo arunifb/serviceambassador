@@ -82,7 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:orientation="horizontal"
-            android:background="@drawable/spinner_back"
+            android:background="@drawable/spinner_bg"
             android:divider="@color/apptextcolor"
             android:dividerPadding="0.5dp"
             android:showDividers="middle"

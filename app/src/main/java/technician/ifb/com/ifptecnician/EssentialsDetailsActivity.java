@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -61,7 +62,7 @@ public class EssentialsDetailsActivity extends AppCompatActivity implements AddM
     String url,Frcode;
     SessionManager sessionManager;
     ProgressBar progressBar;
-    TextView essential_txt,essential_component_txt,add_essential_txt,essential_count_txt,decrease_essential_txt;
+    TextView essential_txt,essential_component_txt,add_essential_txt,essential_count_txt,decrease_essential_txt,txt_proceed;
     ImageView img_select_essential;
 
     boolean selected = true;
@@ -92,6 +93,7 @@ public class EssentialsDetailsActivity extends AppCompatActivity implements AddM
         essential_count_txt = findViewById(R.id.essential_count_txt);
         decrease_essential_txt = findViewById(R.id.decrease_essential_txt);
         img_select_essential = findViewById(R.id.img_select_essential);
+        txt_proceed =findViewById(R.id.txt_proceed);
 
 
 
@@ -265,6 +267,17 @@ public class EssentialsDetailsActivity extends AppCompatActivity implements AddM
                 rc_essentiallist.setItemAnimator(new DefaultItemAnimator());
                 rc_essentiallist.setAdapter(addMoreEssentialAdapter);
 
+
+            }
+        });
+
+        txt_proceed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(EssentialsDetailsActivity.this, PaymentSummaryActivity.class);
+
+                startActivity(intent);
 
             }
         });

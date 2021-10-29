@@ -42,7 +42,7 @@
                 android:layout_weight="1.5"
                 android:text="Cancel"
                 tools:ignore="ButtonStyle"
-                android:background="@drawable/request_otp"
+                android:background="@drawable/request_otp_1"
                 android:textColor="@color/apptextcolor" />
 
             <Button
