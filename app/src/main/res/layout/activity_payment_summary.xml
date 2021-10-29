@@ -69,7 +69,6 @@
         android:text="Payment Summary"
         android:textSize="20sp" />
 
-
     <RelativeLayout
         android:id="@+id/rl_details"
         android:background="@drawable/payment_details_bg1"
@@ -189,7 +188,6 @@
 
     </RelativeLayout>
 
-
     <RelativeLayout
         android:id="@+id/rl_paymentoption"
         android:background="@drawable/payment_details_bg"
@@ -217,8 +215,6 @@
 
 
     </RelativeLayout>
-
-
 
     <RelativeLayout
         android:layout_marginLeft="20dp"
@@ -271,15 +267,11 @@
 
 
 
-
         </androidx.cardview.widget.CardView>
 
 
 
     </RelativeLayout>
-
-
-
 
     <RelativeLayout
         android:layout_alignParentBottom="true"
@@ -321,7 +313,6 @@
             android:paddingBottom="10dp"
             android:text="Pay"
             android:textColor="@color/white" />
-
 
 
     </RelativeLayout>

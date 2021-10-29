@@ -36,6 +36,7 @@
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_create_unpunched_amc.xml" value="0.14168377823408623" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_details.xml" value="0.1" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_enter_reference_code.xml" value="0.1621376811594203" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_essential_lead_list.xml" value="0.12760416666666666" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_essentiallist.xml" value="0.22" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_essentialsdetails.xml" value="0.22" />
@@ -45,7 +46,7 @@
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_other_ticket_details.xml" value="0.1" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_otherticket_list.xml" value="0.12760416666666666" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_payment_summary.xml" value="0.25" />
-        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_scan_qrcodefor_essential.xml" value="0.13179347826086957" />
+        <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/activity_scan_qrcodefor_essential.xml" value="0.25" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/content_customer_details.xml" value="0.1" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/content_details.xml" value="0.13768115942028986" />
         <entry key="..\:/IFBTechnicianlatest/IFPTecnician/app/src/main/res/layout/essential_add_more_items.xml" value="0.25" />

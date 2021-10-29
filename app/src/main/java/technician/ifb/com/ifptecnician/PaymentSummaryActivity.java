@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -21,6 +22,7 @@ public class PaymentSummaryActivity extends AppCompatActivity {
     boolean cash = false;
     boolean paytm = false;
     boolean gpay = false;
+    Button btn_submit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,10 +89,6 @@ public class PaymentSummaryActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-
         txt_pay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -114,5 +112,7 @@ public class PaymentSummaryActivity extends AppCompatActivity {
 
             }
         });
+
+
     }
 }
