@@ -66,6 +66,7 @@ public class EssentialsDetailsActivity extends AppCompatActivity implements AddM
     ImageView img_select_essential;
 
     boolean selected = true;
+    ImageView img_back;
 
 
     @Override
@@ -129,7 +130,16 @@ public class EssentialsDetailsActivity extends AppCompatActivity implements AddM
         addedlist.clear();
 
         selectionlist.clear();
+        img_back = findViewById(R.id.img_back);
 
+        img_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                finish();
+
+            }
+        });
 
 
        add_essential_txt.setOnClickListener(new View.OnClickListener() {
@@ -237,15 +247,12 @@ public class EssentialsDetailsActivity extends AppCompatActivity implements AddM
                    }
 
 
-
                 Log.d("search_item",searchable_spinner_item);
 
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
-
-
 
 
             }

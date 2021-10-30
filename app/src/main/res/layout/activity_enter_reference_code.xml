@@ -56,27 +56,32 @@
 
 
     <EditText
-          android:layout_below="@+id/essentials_toolbar"
-          android:id="@+id/et_referencecode"
-          android:hint="Enter Reference Code"
-          android:padding="10dp"
-          android:background="@drawable/spinner_bg"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_margin="20sp"
-        />
-
-
-    <TextView
-        android:id="@+id/btn_submit"
+        android:id="@+id/et_referencecode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/et_referencecode"
+        android:layout_below="@+id/essentials_toolbar"
         android:layout_marginStart="20sp"
         android:layout_marginTop="20sp"
         android:layout_marginEnd="20sp"
         android:layout_marginBottom="20sp"
-        android:background="@color/red"
+        android:background="@drawable/spinner_bg"
+        android:hint="Enter Reference Code"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/btn_submit_reference_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_referencecode"
+        android:background="@drawable/add_more_bg"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Submit"
         android:padding="10dp" />
 
 

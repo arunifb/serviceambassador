@@ -102,11 +102,11 @@ public class PaymentSummaryActivity extends AppCompatActivity {
                 else if(paytm){
                     //Toast.makeText(PaymentSummaryActivity.this, payment_radiogroup.getText(), Toast.LENGTH_SHORT).show();
 
-                  startActivity(new Intent(PaymentSummaryActivity.this,ScanQRCodeForEssentialActivity.class));
+                  startActivity(new Intent(PaymentSummaryActivity.this,ScanQRCodeForEssentialActivity.class).putExtra("from","paytm"));
 
                 }else if(gpay){
 
-                    startActivity(new Intent(PaymentSummaryActivity.this,ScanQRCodeForEssentialActivity.class));
+                    startActivity(new Intent(PaymentSummaryActivity.this,ScanQRCodeForEssentialActivity.class).putExtra("from","googlepay"));
 
                 }
 

@@ -6,14 +6,74 @@
     android:layout_height="match_parent"
     tools:context=".ScanQRCodeForEssentialActivity">
 
-
     <ImageView
-        android:id="@+id/qrcode"
-        android:src= "@drawable/qrcode_image1"
+        android:id="@+id/paytm_accepted"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/paytm" />
+
+
+    <TextView
+        android:id="@+id/accepted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paytm_accepted"
+        android:layout_centerHorizontal="true"
+        android:text="Accepted Here"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accepted"
+        android:layout_centerHorizontal="true"
+        android:text="Scan QR Code"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+
+        android:id="@+id/qrcode_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        />
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/spinner_bg">
+
+
+        <ImageView
+            android:id="@+id/qrcode"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/qrcode_image1" />
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/qrcode_layout"
+        android:layout_centerHorizontal="true"
+        android:text="Phone:9898758987\nFranchise:IFB Automative\nBranch:\Mahadevpura, IFB Point"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
 
     <TextView

@@ -31,8 +31,8 @@ public class AddMoreEssentialAdapter extends RecyclerView.Adapter<AddMoreEssenti
         this.addedlist = addedlist;
         this.addMoreItemDeleteCallback = addMoreItemDeleteCallback;
 
-
     }
+
 
     @Override
     public AddMoreEssentialAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
